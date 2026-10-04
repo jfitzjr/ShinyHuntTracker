@@ -30,11 +30,12 @@ if compiledPath:
             raise Exception(
                 "CountSave.json is missing or could not be copied from assets.")
 else:
-    savePath = "src/CountSave.json"
+    baseDir = os.path.dirname(__file__)
+    savePath = os.path.join(baseDir, 'CountSave.json')
 
     if not os.path.exists(savePath):
         try:
-            assetsSavePath = os.path.join('src/assets', 'CountSave.json')
+            assetsSavePath = os.path.join(baseDir, 'assets', 'CountSave.json')
             shutil.copy(assetsSavePath, savePath)
         except Exception:
             raise Exception(
