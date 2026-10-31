@@ -15,7 +15,7 @@ pip install flet
 ```
 Clone this repository.
 ```bash
-git clone https://github.com/jfjr-dev/ShinyHuntTracker.git
+git clone https://github.com/jfitzjr/ShinyHuntTracker.git
 ```
 Change into the repository's directory.
 ```bash
