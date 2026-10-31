@@ -427,8 +427,11 @@ def main(page: ft.Page):
     )
 
     def tabChange(e):
+        nonlocal play
+
         save()
         if e.control.selected_index == 1 and activeTile:
+            play = False
             activeTile.title = ft.Text(
                 f"{activeHunt} - {pokemonDictionary[activeHunt][SRCOUNT]}", 
                 size=20
