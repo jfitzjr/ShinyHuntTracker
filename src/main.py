@@ -302,7 +302,7 @@ def main(page: ft.Page):
                 tile = ft.ListTile(
                     title=ft.Text(
                         f"{key} - {
-                            pokemonDictionary.get(key, 0)[SRCOUNT]}",
+                            pokemonDictionary[activeHunt][SRCOUNT]}",
                         size=20),
                     data=key,
                     selected=isActive,
@@ -430,7 +430,7 @@ def main(page: ft.Page):
         save()
         if e.control.selected_index == 1 and activeTile:
             activeTile.title = ft.Text(
-                f"{activeHunt} - {pokemonDictionary.get(activeHunt[SRCOUNT], 0)}", 
+                f"{activeHunt} - {pokemonDictionary[activeHunt][SRCOUNT]}", 
                 size=20
             )
             activeTile.update()
