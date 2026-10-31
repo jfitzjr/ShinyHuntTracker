@@ -1,1339 +1,5350 @@
 {
-    "Bulbasaur": 0,
-    "Ivysaur": 0,
-    "Venusaur Male": 0,
-    "Venusaur Female": 0,
-    "Charmander": 0,
-    "Charmeleon": 0,
-    "Charizard": 0,
-    "Squirtle": 0,
-    "Wartortle": 0,
-    "Blastoise": 0,
-    "Caterpie": 0,
-    "Metapod": 0,
-    "Butterfree Male": 0,
-    "Butterfree Female": 0,
-    "Weedle": 0,
-    "Kakuna": 0,
-    "Beedrill": 0,
-    "Pidgey": 0,
-    "Pidgeotto": 0,
-    "Pidgeot": 0,
-    "Rattata Male": 0,
-    "Rattata Female": 0,
-    "Raticate Male": 0,
-    "Raticate Female": 0,
-    "Spearow": 0,
-    "Fearow": 0,
-    "Ekans": 0,
-    "Arbok": 0,
-    "Pikachu Male": 0,
-    "Pikachu Female": 0,
-    "Pikachu Original Cap": 0,
-    "Pikachu Hoenn Cap": 0,
-    "Pikachu Sinnoh Cap": 0,
-    "Pikachu Unova Cap": 0,
-    "Pikachu Kalos Cap": 0,
-    "Pikachu Alola Cap": 0,
-    "Pikachu Partner Cap": 0,
-    "Pikachu World Cap": 0,
-    "Raichu Male": 0,
-    "Raichu Female": 0,
-    "Sandshrew": 0,
-    "Sandslash": 0,
-    "Nidoran Female": 0,
-    "Nidorina": 0,
-    "Nidoqueen": 0,
-    "Nidoran Male": 0,
-    "Nidorino": 0,
-    "Nidoking": 0,
-    "Clefairy": 0,
-    "Clefable": 0,
-    "Vulpix": 0,
-    "Ninetales": 0,
-    "Jigglypuff": 0,
-    "Wigglytuff": 0,
-    "Zubat Male": 0,
-    "Zubat Female": 0,
-    "Golbat Male": 0,
-    "Golbat Female": 0,
-    "Oddish": 0,
-    "Gloom Male": 0,
-    "Gloom Female": 0,
-    "Vileplume Male": 0,
-    "Vileplume Female": 0,
-    "Paras": 0,
-    "Parasect": 0,
-    "Venonat": 0,
-    "Venomoth": 0,
-    "Diglett": 0,
-    "Dugtrio": 0,
-    "Meowth": 0,
-    "Persian": 0,
-    "Psyduck": 0,
-    "Golduck": 0,
-    "Mankey": 0,
-    "Primeape": 0,
-    "Growlithe": 0,
-    "Arcanine": 0,
-    "Poliwag": 0,
-    "Poliwhirl": 0,
-    "Poliwrath": 0,
-    "Abra": 0,
-    "Kadabra Male": 0,
-    "Kadabra Female": 0,
-    "Alakazam Male": 0,
-    "Alakazam Female": 0,
-    "Machop": 0,
-    "Machoke": 0,
-    "Machamp": 0,
-    "Bellsprout": 0,
-    "Weepinbell": 0,
-    "Victreebel": 0,
-    "Tentacool": 0,
-    "Tentacruel": 0,
-    "Geodude": 0,
-    "Graveler": 0,
-    "Golem": 0,
-    "Ponyta": 0,
-    "Rapidash": 0,
-    "Slowpoke": 0,
-    "Slowbro": 0,
-    "Magnemite": 0,
-    "Magneton": 0,
-    "Farfetch'd": 0,
-    "Doduo Male": 0,
-    "Doduo Female": 0,
-    "Dodrio Male": 0,
-    "Dodrio Female": 0,
-    "Seel": 0,
-    "Dewgong": 0,
-    "Grimer": 0,
-    "Muk": 0,
-    "Shellder": 0,
-    "Cloyster": 0,
-    "Gastly": 0,
-    "Haunter": 0,
-    "Gengar": 0,
-    "Onix": 0,
-    "Drowzee": 0,
-    "Hypno Male": 0,
-    "Hypno Female": 0,
-    "Krabby": 0,
-    "Kingler": 0,
-    "Voltorb": 0,
-    "Electrode": 0,
-    "Exeggcute": 0,
-    "Exeggutor": 0,
-    "Cubone": 0,
-    "Marowak": 0,
-    "Hitmonlee": 0,
-    "Hitmonchan": 0,
-    "Lickitung": 0,
-    "Koffing": 0,
-    "Weezing": 0,
-    "Rhyhorn Male": 0,
-    "Rhyhorn Female": 0,
-    "Rhydon Male": 0,
-    "Rhydon Female": 0,
-    "Chansey": 0,
-    "Tangela": 0,
-    "Kangaskhan": 0,
-    "Horsea": 0,
-    "Seadra": 0,
-    "Goldeen Male": 0,
-    "Goldeen Female": 0,
-    "Seaking Male": 0,
-    "Seaking Female": 0,
-    "Staryu": 0,
-    "Starmie": 0,
-    "Mr. Mime": 0,
-    "Scyther Male": 0,
-    "Scyther Female": 0,
-    "Jynx": 0,
-    "Electabuzz": 0,
-    "Magmar": 0,
-    "Pinsir": 0,
-    "Tauros": 0,
-    "Paldean Tauros Combat Breed": 0,
-    "Paldean Tauros Blaze Breed": 0,
-    "Paldean Tauros Aqua Breed": 0,
-    "Magikarp Male": 0,
-    "Magikarp Female": 0,
-    "Gyarados Male": 0,
-    "Gyarados Female": 0,
-    "Lapras": 0,
-    "Ditto": 0,
-    "Eevee Male": 0,
-    "Eevee Female": 0,
-    "Vaporeon": 0,
-    "Jolteon": 0,
-    "Flareon": 0,
-    "Porygon": 0,
-    "Omanyte": 0,
-    "Omastar": 0,
-    "Kabuto": 0,
-    "Kabutops": 0,
-    "Aerodactyl": 0,
-    "Snorlax": 0,
-    "Articuno": 0,
-    "Zapdos": 0,
-    "Moltres": 0,
-    "Dratini": 0,
-    "Dragonair": 0,
-    "Dragonite": 0,
-    "Mewtwo": 0,
-    "Mew": 0,
-    "Chikorita": 0,
-    "Bayleef": 0,
-    "Meganium Male": 0,
-    "Meganium Female": 0,
-    "Cyndaquil": 0,
-    "Quilava": 0,
-    "Typhlosion": 0,
-    "Totodile": 0,
-    "Croconaw": 0,
-    "Feraligatr": 0,
-    "Sentret": 0,
-    "Furret": 0,
-    "Hoothoot": 0,
-    "Noctowl": 0,
-    "Ledyba Male": 0,
-    "Ledyba Female": 0,
-    "Ledian Male": 0,
-    "Ledian Female": 0,
-    "Spinarak": 0,
-    "Ariados": 0,
-    "Crobat": 0,
-    "Chinchou": 0,
-    "Lanturn": 0,
-    "Pichu": 0,
-    "Cleffa": 0,
-    "Igglybuff": 0,
-    "Togepi": 0,
-    "Togetic": 0,
-    "Natu": 0,
-    "Xatu Male": 0,
-    "Xatu Female": 0,
-    "Mareep": 0,
-    "Flaaffy": 0,
-    "Ampharos": 0,
-    "Bellossom": 0,
-    "Marill": 0,
-    "Azumarill": 0,
-    "Sudowoodo Male": 0,
-    "Sudowoodo Female": 0,
-    "Politoed Male": 0,
-    "Politoed Female": 0,
-    "Hoppip": 0,
-    "Skiploom": 0,
-    "Jumpluff": 0,
-    "Aipom Male": 0,
-    "Aipom Female": 0,
-    "Sunkern": 0,
-    "Sunflora": 0,
-    "Yanma": 0,
-    "Wooper Male": 0,
-    "Wooper Female": 0,
-    "Quagsire Male": 0,
-    "Quagsire Female": 0,
-    "Espeon": 0,
-    "Umbreon": 0,
-    "Murkrow Male": 0,
-    "Murkrow Female": 0,
-    "Slowking": 0,
-    "Misdreavus": 0,
-    "Unown A": 0,
-    "Unown B": 0,
-    "Unown C": 0,
-    "Unown D": 0,
-    "Unown E": 0,
-    "Unown F": 0,
-    "Unown G": 0,
-    "Unown H": 0,
-    "Unown I": 0,
-    "Unown J": 0,
-    "Unown K": 0,
-    "Unown L": 0,
-    "Unown M": 0,
-    "Unown N": 0,
-    "Unown O": 0,
-    "Unown P": 0,
-    "Unown Q": 0,
-    "Unown R": 0,
-    "Unown S": 0,
-    "Unown T": 0,
-    "Unown U": 0,
-    "Unown V": 0,
-    "Unown W": 0,
-    "Unown X": 0,
-    "Unown Y": 0,
-    "Unown Z": 0,
-    "Unown !": 0,
-    "Unown ?": 0,
-    "Wobbuffet Male": 0,
-    "Wobbuffet Female": 0,
-    "Girafarig Male": 0,
-    "Girafarig Female": 0,
-    "Pineco": 0,
-    "Forretress": 0,
-    "Dunsparce": 0,
-    "Gligar Male": 0,
-    "Gligar Female": 0,
-    "Steelix Male": 0,
-    "Steelix Female": 0,
-    "Snubbull": 0,
-    "Granbull": 0,
-    "Qwilfish": 0,
-    "Scizor Male": 0,
-    "Scizor Female": 0,
-    "Shuckle": 0,
-    "Heracross Male": 0,
-    "Heracross Female": 0,
-    "Sneasel Male": 0,
-    "Sneasel Female": 0,
-    "Hisuian Sneasel Male": 0,
-    "Hisuian Sneasel Female": 0,
-    "Teddiursa": 0,
-    "Ursaring Male": 0,
-    "Ursaring Female": 0,
-    "Slugma": 0,
-    "Magcargo": 0,
-    "Swinub": 0,
-    "Piloswine Male": 0,
-    "Piloswine Female": 0,
-    "Corsola": 0,
-    "Remoraid": 0,
-    "Octillery Male": 0,
-    "Octillery Female": 0,
-    "Delibird": 0,
-    "Mantine": 0,
-    "Skarmory": 0,
-    "Houndour": 0,
-    "Houndoom Male": 0,
-    "Houndoom Female": 0,
-    "Kingdra": 0,
-    "Phanpy": 0,
-    "Donphan Male": 0,
-    "Donphan Female": 0,
-    "Porygon2": 0,
-    "Stantler": 0,
-    "Smeargle": 0,
-    "Tyrogue": 0,
-    "Hitmontop": 0,
-    "Smoochum": 0,
-    "Elekid": 0,
-    "Magby": 0,
-    "Miltank": 0,
-    "Blissey": 0,
-    "Raikou": 0,
-    "Entei": 0,
-    "Suicune": 0,
-    "Larvitar": 0,
-    "Pupitar": 0,
-    "Tyranitar": 0,
-    "Lugia": 0,
-    "Ho-oh": 0,
-    "Celebi": 0,
-    "Treecko": 0,
-    "Grovyle": 0,
-    "Sceptile": 0,
-    "Torchic Male": 0,
-    "Torchic Female": 0,
-    "Combusken Male": 0,
-    "Combusken Female": 0,
-    "Blaziken Male": 0,
-    "Blaziken Female": 0,
-    "Mudkip": 0,
-    "Marshtomp": 0,
-    "Swampert": 0,
-    "Poochyena": 0,
-    "Mightyena": 0,
-    "Zigzagoon": 0,
-    "Linoone": 0,
-    "Wurmple": 0,
-    "Silcoon": 0,
-    "Beautifly Male": 0,
-    "Beautifly Female": 0,
-    "Cascoon": 0,
-    "Dustox Male": 0,
-    "Dustox Female": 0,
-    "Lotad": 0,
-    "Lombre": 0,
-    "Ludicolo Male": 0,
-    "Ludicolo Female": 0,
-    "Seedot": 0,
-    "Nuzleaf Male": 0,
-    "Nuzleaf Female": 0,
-    "Shiftry Male": 0,
-    "Shiftry Female": 0,
-    "Taillow": 0,
-    "Swellow": 0,
-    "Wingull": 0,
-    "Pelipper": 0,
-    "Ralts": 0,
-    "Kirlia": 0,
-    "Gardevoir": 0,
-    "Surskit": 0,
-    "Masquerain": 0,
-    "Shroomish": 0,
-    "Breloom": 0,
-    "Slakoth": 0,
-    "Vigoroth": 0,
-    "Slaking": 0,
-    "Nincada": 0,
-    "Ninjask": 0,
-    "Shedinja": 0,
-    "Whismur": 0,
-    "Loudred": 0,
-    "Exploud": 0,
-    "Makuhita": 0,
-    "Hariyama": 0,
-    "Azurill": 0,
-    "Nosepass": 0,
-    "Skitty": 0,
-    "Delcatty": 0,
-    "Sableye": 0,
-    "Mawile": 0,
-    "Aron": 0,
-    "Lairon": 0,
-    "Aggron": 0,
-    "Meditite Male": 0,
-    "Meditite Female": 0,
-    "Medicham Male": 0,
-    "Medicham Female": 0,
-    "Electrike": 0,
-    "Manectric": 0,
-    "Plusle": 0,
-    "Minun": 0,
-    "Volbeat": 0,
-    "Illumise": 0,
-    "Roselia Male": 0,
-    "Roselia Female": 0,
-    "Gulpin Male": 0,
-    "Gulpin Female": 0,
-    "Swalot Male": 0,
-    "Swalot Female": 0,
-    "Carvanha": 0,
-    "Sharpedo": 0,
-    "Wailmer": 0,
-    "Wailord": 0,
-    "Numel Male": 0,
-    "Numel Female": 0,
-    "Camerupt Male": 0,
-    "Camerupt Female": 0,
-    "Torkoal": 0,
-    "Spoink": 0,
-    "Grumpig": 0,
-    "Spinda": 0,
-    "Trapinch": 0,
-    "Vibrava": 0,
-    "Flygon": 0,
-    "Cacnea": 0,
-    "Cacturne Male": 0,
-    "Cacturne Female": 0,
-    "Swablu": 0,
-    "Altaria": 0,
-    "Zangoose": 0,
-    "Seviper": 0,
-    "Lunatone": 0,
-    "Solrock": 0,
-    "Barboach": 0,
-    "Whiscash": 0,
-    "Corphish": 0,
-    "Crawdaunt": 0,
-    "Baltoy": 0,
-    "Claydol": 0,
-    "Lileep": 0,
-    "Cradily": 0,
-    "Anorith": 0,
-    "Armaldo": 0,
-    "Feebas": 0,
-    "Milotic Male": 0,
-    "Milotic Female": 0,
-    "Castform": 0,
-    "Kecleon": 0,
-    "Shuppet": 0,
-    "Banette": 0,
-    "Duskull": 0,
-    "Dusclops": 0,
-    "Tropius": 0,
-    "Chimecho": 0,
-    "Absol": 0,
-    "Wynaut": 0,
-    "Snorunt": 0,
-    "Glalie": 0,
-    "Spheal": 0,
-    "Sealeo": 0,
-    "Walrein": 0,
-    "Clamperl": 0,
-    "Huntail": 0,
-    "Gorebyss": 0,
-    "Relicanth Male": 0,
-    "Relicanth Female": 0,
-    "Luvdisc": 0,
-    "Bagon": 0,
-    "Shelgon": 0,
-    "Salamence": 0,
-    "Beldum": 0,
-    "Metang": 0,
-    "Metagross": 0,
-    "Regirock": 0,
-    "Regice": 0,
-    "Registeel": 0,
-    "Latias": 0,
-    "Latios": 0,
-    "Kyogre": 0,
-    "Groudon": 0,
-    "Rayquaza": 0,
-    "Jirachi": 0,
-    "Deoxys Normal Forme": 0,
-    "Deoxys Attack Forme": 0,
-    "Deoxys Defense Forme": 0,
-    "Deoxys Speed Forme": 0,
-    "Turtwig": 0,
-    "Grotle": 0,
-    "Torterra": 0,
-    "Chimchar": 0,
-    "Monferno": 0,
-    "Infernape": 0,
-    "Piplup": 0,
-    "Prinplup": 0,
-    "Empoleon": 0,
-    "Starly Male": 0,
-    "Starly Female": 0,
-    "Staravia Male": 0,
-    "Staravia Female": 0,
-    "Staraptor Male": 0,
-    "Staraptor Female": 0,
-    "Bidoof Male": 0,
-    "Bidoof Female": 0,
-    "Bibarel Male": 0,
-    "Bibarel Female": 0,
-    "Kricketot Male": 0,
-    "Kricketot Female": 0,
-    "Kricketune Male": 0,
-    "Kricketune Female": 0,
-    "Shinx Male": 0,
-    "Shinx Female": 0,
-    "Luxio Male": 0,
-    "Luxio Female": 0,
-    "Luxray Male": 0,
-    "Luxray Female": 0,
-    "Budew": 0,
-    "Roserade Male": 0,
-    "Roserade Female": 0,
-    "Cranidos": 0,
-    "Rampardos": 0,
-    "Shieldon": 0,
-    "Bastiodon": 0,
-    "Burmy Plant Cloak": 0,
-    "Burmy Sandy Cloak": 0,
-    "Burmy Trash Cloak": 0,
-    "Wormadam Plant Cloak": 0,
-    "Wormadam Sandy Cloak": 0,
-    "Wormadam Trash Cloak": 0,
-    "Mothim": 0,
-    "Combee Male": 0,
-    "Combee Female": 0,
-    "Vespiquen": 0,
-    "Pachirisu Male": 0,
-    "Pachirisu Female": 0,
-    "Buizel Male": 0,
-    "Buizel Female": 0,
-    "Floatzel Male": 0,
-    "Floatzel Female": 0,
-    "Cherubi": 0,
-    "Cherrim": 0,
-    "Shellos West Sea": 0,
-    "Shellos East Sea": 0,
-    "Gastrodon": 0,
-    "Ambipom Male": 0,
-    "Ambipom Female": 0,
-    "Drifloon": 0,
-    "Drifblim": 0,
-    "Buneary": 0,
-    "Lopunny": 0,
-    "Mismagius": 0,
-    "Honchkrow": 0,
-    "Glameow": 0,
-    "Purugly": 0,
-    "Chingling": 0,
-    "Stunky": 0,
-    "Skuntank": 0,
-    "Bronzor": 0,
-    "Bronzong": 0,
-    "Bonsly": 0,
-    "Mime Jr.": 0,
-    "Happiny": 0,
-    "Chatot": 0,
-    "Spiritomb": 0,
-    "Gible Male": 0,
-    "Gible Female": 0,
-    "Gabite Male": 0,
-    "Gabite Female": 0,
-    "Garchomp Male": 0,
-    "Garchomp Female": 0,
-    "Munchlax": 0,
-    "Riolu": 0,
-    "Lucario": 0,
-    "Hippopotas Male": 0,
-    "Hippopotas Female": 0,
-    "Hippowdon Male": 0,
-    "Hippowdon Female": 0,
-    "Skorupi": 0,
-    "Drapion": 0,
-    "Croagunk Male": 0,
-    "Croagunk Female": 0,
-    "Toxicroak Male": 0,
-    "Toxicroak Female": 0,
-    "Carnivine": 0,
-    "Finneon Male": 0,
-    "Finneon Female": 0,
-    "Lumineon Male": 0,
-    "Lumineon Female": 0,
-    "Mantyke": 0,
-    "Snover Male": 0,
-    "Snover Female": 0,
-    "Abomasnow Male": 0,
-    "Abomasnow Female": 0,
-    "Weavile Male": 0,
-    "Weavile Female": 0,
-    "Magnezone": 0,
-    "Lickilicky": 0,
-    "Rhyperior Male": 0,
-    "Rhyperior Female": 0,
-    "Tangrowth Male": 0,
-    "Tangrowth Female": 0,
-    "Electivire": 0,
-    "Magmortar": 0,
-    "Togekiss": 0,
-    "Yanmega": 0,
-    "Leafeon": 0,
-    "Glaceon": 0,
-    "Gliscor": 0,
-    "Mamoswine Male": 0,
-    "Mamoswine Female": 0,
-    "Porygon-Z": 0,
-    "Gallade": 0,
-    "Probopass": 0,
-    "Dusknoir": 0,
-    "Froslass": 0,
-    "Rotom": 0,
-    "Heat Rotom": 0,
-    "Wash Rotom": 0,
-    "Frost Rotom": 0,
-    "Fan Rotom": 0,
-    "Mow Rotom": 0,
-    "Uxie": 0,
-    "Mesprit": 0,
-    "Azelf": 0,
-    "Dialga": 0,
-    "Palkia": 0,
-    "Heatran": 0,
-    "Regigigas": 0,
-    "Giratina": 0,
-    "Cresselia": 0,
-    "Phione": 0,
-    "Manaphy": 0,
-    "Darkrai": 0,
-    "Shaymin Land Forme": 0,
-    "Shaymin Sky Forme": 0,
-    "Arceus": 0,
-    "Victini": 0,
-    "Snivy": 0,
-    "Servine": 0,
-    "Serperior": 0,
-    "Tepig": 0,
-    "Pignite": 0,
-    "Emboar": 0,
-    "Oshawott": 0,
-    "Dewott": 0,
-    "Samurott": 0,
-    "Patrat": 0,
-    "Watchog": 0,
-    "Lillipup": 0,
-    "Herdier": 0,
-    "Stoutland": 0,
-    "Purrloin": 0,
-    "Liepard": 0,
-    "Pansage": 0,
-    "Simisage": 0,
-    "Pansear": 0,
-    "Simisear": 0,
-    "Panpour": 0,
-    "Simipour": 0,
-    "Munna": 0,
-    "Musharna": 0,
-    "Pidove": 0,
-    "Tranquill": 0,
-    "Unfezant Male": 0,
-    "Unfezant Female": 0,
-    "Blitzle": 0,
-    "Zebstrika": 0,
-    "Roggenrola": 0,
-    "Boldore": 0,
-    "Gigalith": 0,
-    "Woobat": 0,
-    "Swoobat": 0,
-    "Drilbur": 0,
-    "Excadrill": 0,
-    "Audino": 0,
-    "Timburr": 0,
-    "Gurdurr": 0,
-    "Conkeldurr": 0,
-    "Tympole": 0,
-    "Palpitoad": 0,
-    "Seismitoad": 0,
-    "Throh": 0,
-    "Sawk": 0,
-    "Sewaddle": 0,
-    "Swadloon": 0,
-    "Leavanny": 0,
-    "Venipede": 0,
-    "Whirlipede": 0,
-    "Scolipede": 0,
-    "Cottonee": 0,
-    "Whimsicott": 0,
-    "Petilil": 0,
-    "Lilligant": 0,
-    "Basculin Red-Striped Form": 0,
-    "Basculin Blue-Striped Form": 0,
-    "Basculin White-Striped Form": 0,
-    "Sandile": 0,
-    "Krokorok": 0,
-    "Krookodile": 0,
-    "Darumaka": 0,
-    "Darmanitan": 0,
-    "Maractus": 0,
-    "Dwebble": 0,
-    "Crustle": 0,
-    "Scraggy": 0,
-    "Scrafty": 0,
-    "Sigilyph": 0,
-    "Yamask": 0,
-    "Cofagrigus": 0,
-    "Tirtouga": 0,
-    "Carracosta": 0,
-    "Archen": 0,
-    "Archeops": 0,
-    "Trubbish": 0,
-    "Garbodor": 0,
-    "Zorua": 0,
-    "Zoroark": 0,
-    "Minccino": 0,
-    "Cinccino": 0,
-    "Gothita": 0,
-    "Gothorita": 0,
-    "Gothitelle": 0,
-    "Solosis": 0,
-    "Duosion": 0,
-    "Reuniclus": 0,
-    "Ducklett": 0,
-    "Swanna": 0,
-    "Vanillite": 0,
-    "Vanillish": 0,
-    "Vanilluxe": 0,
-    "Deerling Spring Form": 0,
-    "Deerling Summer Form": 0,
-    "Deerling Autumn Form": 0,
-    "Deerling Winter Form": 0,
-    "Sawsbuck Spring Form": 0,
-    "Sawsbuck Summer Form": 0,
-    "Sawsbuck Autumn Form": 0,
-    "Sawsbuck Winter Form": 0,
-    "Emolga": 0,
-    "Karrablast": 0,
-    "Escavalier": 0,
-    "Foongus": 0,
-    "Amoonguss": 0,
-    "Frillish Male": 0,
-    "Frillish Female": 0,
-    "Jellicent Male": 0,
-    "Jellicent Female": 0,
-    "Alomomola": 0,
-    "Joltik": 0,
-    "Galvantula": 0,
-    "Ferroseed": 0,
-    "Ferrothorn": 0,
-    "Klink": 0,
-    "Klang": 0,
-    "Klinklang": 0,
-    "Tynamo": 0,
-    "Eelektrik": 0,
-    "Eelektross": 0,
-    "Elgyem": 0,
-    "Beheeyem": 0,
-    "Litwick": 0,
-    "Lampent": 0,
-    "Chandelure": 0,
-    "Axew": 0,
-    "Fraxure": 0,
-    "Haxorus": 0,
-    "Cubchoo": 0,
-    "Beartic": 0,
-    "Cryogonal": 0,
-    "Shelmet": 0,
-    "Accelgor": 0,
-    "Stunfisk": 0,
-    "Mienfoo": 0,
-    "Mienshao": 0,
-    "Druddigon": 0,
-    "Golett": 0,
-    "Golurk": 0,
-    "Pawniard": 0,
-    "Bisharp": 0,
-    "Bouffalant": 0,
-    "Rufflet": 0,
-    "Braviary": 0,
-    "Vullaby": 0,
-    "Mandibuzz": 0,
-    "Heatmor": 0,
-    "Durant": 0,
-    "Deino": 0,
-    "Zweilous": 0,
-    "Hydreigon": 0,
-    "Larvesta": 0,
-    "Volcarona": 0,
-    "Cobalion": 0,
-    "Terrakion": 0,
-    "Virizion": 0,
-    "Tornadus Incarnate Forme": 0,
-    "Tornadus Therian Forme": 0,
-    "Thundurus Incarnate Forme": 0,
-    "Thundurus Therian Forme": 0,
-    "Reshiram": 0,
-    "Zekrom": 0,
-    "Landorus Incarnate Forme": 0,
-    "Landorus Therian Forme": 0,
-    "Kyurem": 0,
-    "Keldeo Ordinary Form": 0,
-    "Keldeo Resolute Form": 0,
-    "Meloetta": 0,
-    "Genesect": 0,
-    "Chespin": 0,
-    "Quilladin": 0,
-    "Chesnaught": 0,
-    "Fennekin": 0,
-    "Braixen": 0,
-    "Delphox": 0,
-    "Froakie": 0,
-    "Frogadier": 0,
-    "Greninja": 0,
-    "Greninja Battle Bond": 0,
-    "Bunnelby": 0,
-    "Diggersby": 0,
-    "Fletchling": 0,
-    "Fletchinder": 0,
-    "Talonflame": 0,
-    "Scatterbug": 0,
-    "Spewpa": 0,
-    "Vivillon Icy Snow Pattern": 0,
-    "Vivillon Polar Pattern": 0,
-    "Vivillon Tundra Pattern": 0,
-    "Vivillon Continental Pattern": 0,
-    "Vivillon Garden Pattern": 0,
-    "Vivillon Elegant Pattern": 0,
-    "Vivillon Meadow Pattern": 0,
-    "Vivillon Modern Pattern": 0,
-    "Vivillon Marine Pattern": 0,
-    "Vivillon Archipelago Pattern": 0,
-    "Vivillon High Plains Pattern": 0,
-    "Vivillon Sandstorm Pattern": 0,
-    "Vivillon River Pattern": 0,
-    "Vivillon Monsoon Pattern": 0,
-    "Vivillon Savanna Pattern": 0,
-    "Vivillon Sun Pattern": 0,
-    "Vivillon Ocean Pattern": 0,
-    "Vivillon Jungle Pattern": 0,
-    "Vivillon Fancy Pattern": 0,
-    "Vivillon Poke Ball Pattern": 0,
-    "Litleo": 0,
-    "Pyroar Male": 0,
-    "Pyroar Female": 0,
-    "Flabebe Red Flower": 0,
-    "Flabebe Yellow Flower": 0,
-    "Flabebe Orange Flower": 0,
-    "Flabebe Blue Flower": 0,
-    "Flabebe White Flower": 0,
-    "Floette Red Flower": 0,
-    "Floette Yellow Flower": 0,
-    "Floette Orange Flower": 0,
-    "Floette Blue Flower": 0,
-    "Floette White Flower": 0,
-    "Floette Eternal Flower": 0,
-    "Florges Red Flower": 0,
-    "Florges Yellow Flower": 0,
-    "Florges Orange Flower": 0,
-    "Florges Blue Flower": 0,
-    "Florges White Flower": 0,
-    "Skiddo": 0,
-    "Gogoat": 0,
-    "Pancham": 0,
-    "Pangoro": 0,
-    "Furfrou Natural Form": 0,
-    "Furfrou Heart Form": 0,
-    "Furfrou Star Form": 0,
-    "Furfrou Diamond Form": 0,
-    "Furfrou Debutante Form": 0,
-    "Furfrou Matron Form": 0,
-    "Furfrou Dandy Form": 0,
-    "Furfrou La Reine Form": 0,
-    "Furfrou Kabuki Form": 0,
-    "Furfrou Pharaoh Form": 0,
-    "Espurr": 0,
-    "Meowstic Male": 0,
-    "Meowstic Female": 0,
-    "Honedge": 0,
-    "Doublade": 0,
-    "Aegislash": 0,
-    "Spritzee": 0,
-    "Aromatisse": 0,
-    "Swirlix": 0,
-    "Slurpuff": 0,
-    "Inkay": 0,
-    "Malamar": 0,
-    "Binacle": 0,
-    "Barbaracle": 0,
-    "Skrelp": 0,
-    "Dragalge": 0,
-    "Clauncher": 0,
-    "Clawitzer": 0,
-    "Helioptile": 0,
-    "Heliolisk": 0,
-    "Tyrunt": 0,
-    "Tyrantrum": 0,
-    "Amaura": 0,
-    "Aurorus": 0,
-    "Sylveon": 0,
-    "Hawlucha": 0,
-    "Dedenne": 0,
-    "Carbink": 0,
-    "Goomy": 0,
-    "Sliggoo": 0,
-    "Goodra": 0,
-    "Klefki": 0,
-    "Phantump": 0,
-    "Trevenant": 0,
-    "Pumpkaboo Small Variety": 0,
-    "Pumpkaboo Medium Variety": 0,
-    "Pumpkaboo Large Variety": 0,
-    "Pumpkaboo Jumbo Variety": 0,
-    "Gourgeist Small Variety": 0,
-    "Gourgeist Medium Variety": 0,
-    "Gourgeist Large Variety": 0,
-    "Gourgeist Jumbo Variety": 0,
-    "Bergmite": 0,
-    "Avalugg": 0,
-    "Noibat": 0,
-    "Noivern": 0,
-    "Xerneas": 0,
-    "Yveltal": 0,
-    "Zygarde 10% Forme Aura Break": 0,
-    "Zygarde 10% Forme Power Construct": 0,
-    "Zygarde 50% Forme Aura Break": 0,
-    "Zygarde 50% Forme Power Construct": 0,
-    "Diancie": 0,
-    "Hoopa Confined": 0,
-    "Hoopa Unbound": 0,
-    "Volcanion": 0,
-    "Rowlet": 0,
-    "Dartrix": 0,
-    "Decidueye": 0,
-    "Litten": 0,
-    "Torracat": 0,
-    "Incineroar": 0,
-    "Popplio": 0,
-    "Brionne": 0,
-    "Primarina": 0,
-    "Pikipek": 0,
-    "Trumbeak": 0,
-    "Toucannon": 0,
-    "Yungoos": 0,
-    "Gumshoos": 0,
-    "Grubbin": 0,
-    "Charjabug": 0,
-    "Vikavolt": 0,
-    "Crabrawler": 0,
-    "Crabominable": 0,
-    "Oricorio Baile Style": 0,
-    "Oricorio Pom-Pom Style": 0,
-    "Oricorio Pa'u Style": 0,
-    "Oricorio Sensu Style": 0,
-    "Cutiefly": 0,
-    "Ribombee": 0,
-    "Rockruff": 0,
-    "Rockruff Own Tempo": 0,
-    "Lycanroc Midday Form": 0,
-    "Lycanroc Midnight Form": 0,
-    "Lycanroc Dusk Form": 0,
-    "Wishiwashi": 0,
-    "Mareanie": 0,
-    "Toxapex": 0,
-    "Mudbray": 0,
-    "Mudsdale": 0,
-    "Dewpider": 0,
-    "Araquanid": 0,
-    "Fomantis": 0,
-    "Lurantis": 0,
-    "Morelull": 0,
-    "Shiinotic": 0,
-    "Salandit": 0,
-    "Salazzle": 0,
-    "Stufful": 0,
-    "Bewear": 0,
-    "Bounsweet": 0,
-    "Steenee": 0,
-    "Tsareena": 0,
-    "Comfey": 0,
-    "Oranguru": 0,
-    "Passimian": 0,
-    "Wimpod": 0,
-    "Golisopod": 0,
-    "Sandygast": 0,
-    "Palossand": 0,
-    "Pyukumuku": 0,
-    "Type: Null": 0,
-    "Silvally": 0,
-    "Minior Red Core": 0,
-    "Minior Orange Core": 0,
-    "Minior Yellow Core": 0,
-    "Minior Green Core": 0,
-    "Minior Blue Core": 0,
-    "Minior Indigo Core": 0,
-    "Minior Violet Core": 0,
-    "Komala": 0,
-    "Turtonator": 0,
-    "Togedemaru": 0,
-    "Mimikyu": 0,
-    "Bruxish": 0,
-    "Drampa": 0,
-    "Dhelmise": 0,
-    "Jangmo-o": 0,
-    "Hakamo-o": 0,
-    "Kommo-o": 0,
-    "Tapu Koko": 0,
-    "Tapu Lele": 0,
-    "Tapu Bulu": 0,
-    "Tapu Fini": 0,
-    "Cosmog": 0,
-    "Cosmoem": 0,
-    "Solgaleo": 0,
-    "Lunala": 0,
-    "Nihilego": 0,
-    "Buzzwole": 0,
-    "Pheromosa": 0,
-    "Xurkitree": 0,
-    "Celesteela": 0,
-    "Kartana": 0,
-    "Guzzlord": 0,
-    "Necrozma": 0,
-    "Magearna": 0,
-    "Magearna Original Color": 0,
-    "Marshadow": 0,
-    "Poipole": 0,
-    "Naganadel": 0,
-    "Stakataka": 0,
-    "Blacephalon": 0,
-    "Zeraora": 0,
-    "Meltan": 0,
-    "Melmetal": 0,
-    "Grookey": 0,
-    "Thwackey": 0,
-    "Rillaboom": 0,
-    "Scorbunny": 0,
-    "Raboot": 0,
-    "Cinderace": 0,
-    "Sobble": 0,
-    "Drizzile": 0,
-    "Inteleon": 0,
-    "Skwovet": 0,
-    "Greedent": 0,
-    "Rookidee": 0,
-    "Corvisquire": 0,
-    "Corviknight": 0,
-    "Blipbug": 0,
-    "Dottler": 0,
-    "Orbeetle": 0,
-    "Nickit": 0,
-    "Thievul": 0,
-    "Gossifleur": 0,
-    "Eldegoss": 0,
-    "Wooloo": 0,
-    "Dubwool": 0,
-    "Chewtle": 0,
-    "Drednaw": 0,
-    "Yamper": 0,
-    "Boltund": 0,
-    "Rolycoly": 0,
-    "Carkol": 0,
-    "Coalossal": 0,
-    "Applin": 0,
-    "Flapple": 0,
-    "Appletun": 0,
-    "Silicobra": 0,
-    "Sandaconda": 0,
-    "Cramorant": 0,
-    "Arrokuda": 0,
-    "Barraskewda": 0,
-    "Toxel": 0,
-    "Toxtricity Amped Form": 0,
-    "Toxtricity Low Key Form": 0,
-    "Sizzlipede": 0,
-    "Centiskorch": 0,
-    "Clobbopus": 0,
-    "Grapploct": 0,
-    "Sinistea Phony Form": 0,
-    "Sinistea Antique Form": 0,
-    "Polteageist Phony Form": 0,
-    "Polteageist Antique Form": 0,
-    "Hatenna": 0,
-    "Hattrem": 0,
-    "Hatterene": 0,
-    "Impidimp": 0,
-    "Morgrem": 0,
-    "Grimmsnarl": 0,
-    "Obstagoon": 0,
-    "Perrserker": 0,
-    "Cursola": 0,
-    "Sirfetch'd": 0,
-    "Mr. Rime": 0,
-    "Runerigus": 0,
-    "Milcery": 0,
-    "Alcremie Strawberry Sweet Vanilla Cream": 0,
-    "Alcremie Strawberry Sweet Ruby Cream": 0,
-    "Alcremie Strawberry Sweet Matcha Cream": 0,
-    "Alcremie Strawberry Sweet Mint Cream": 0,
-    "Alcremie Strawberry Sweet Lemon Cream": 0,
-    "Alcremie Strawberry Sweet Salted Cream": 0,
-    "Alcremie Strawberry Sweet Ruby Swirl": 0,
-    "Alcremie Strawberry Sweet Caramel Swirl": 0,
-    "Alcremie Strawberry Sweet Rainbow Swirl": 0,
-    "Alcremie Berry Sweet Vanilla Cream": 0,
-    "Alcremie Berry Sweet Ruby Cream": 0,
-    "Alcremie Berry Sweet Matcha Cream": 0,
-    "Alcremie Berry Sweet Mint Cream": 0,
-    "Alcremie Berry Sweet Lemon Cream": 0,
-    "Alcremie Berry Sweet Salted Cream": 0,
-    "Alcremie Berry Sweet Ruby Swirl": 0,
-    "Alcremie Berry Sweet Caramel Swirl": 0,
-    "Alcremie Berry Sweet Rainbow Swirl": 0,
-    "Alcremie Love Sweet Vanilla Cream": 0,
-    "Alcremie Love Sweet Ruby Cream": 0,
-    "Alcremie Love Sweet Matcha Cream": 0,
-    "Alcremie Love Sweet Mint Cream": 0,
-    "Alcremie Love Sweet Lemon Cream": 0,
-    "Alcremie Love Sweet Salted Cream": 0,
-    "Alcremie Love Sweet Ruby Swirl": 0,
-    "Alcremie Love Sweet Caramel Swirl": 0,
-    "Alcremie Love Sweet Rainbow Swirl": 0,
-    "Alcremie Star Sweet Vanilla Cream": 0,
-    "Alcremie Star Sweet Ruby Cream": 0,
-    "Alcremie Star Sweet Matcha Cream": 0,
-    "Alcremie Star Sweet Mint Cream": 0,
-    "Alcremie Star Sweet Lemon Cream": 0,
-    "Alcremie Star Sweet Salted Cream": 0,
-    "Alcremie Star Sweet Ruby Swirl": 0,
-    "Alcremie Star Sweet Caramel Swirl": 0,
-    "Alcremie Star Sweet Rainbow Swirl": 0,
-    "Alcremie Clover Sweet Vanilla Cream": 0,
-    "Alcremie Clover Sweet Ruby Cream": 0,
-    "Alcremie Clover Sweet Matcha Cream": 0,
-    "Alcremie Clover Sweet Mint Cream": 0,
-    "Alcremie Clover Sweet Lemon Cream": 0,
-    "Alcremie Clover Sweet Salted Cream": 0,
-    "Alcremie Clover Sweet Ruby Swirl": 0,
-    "Alcremie Clover Sweet Caramel Swirl": 0,
-    "Alcremie Clover Sweet Rainbow Swirl": 0,
-    "Alcremie Flower Sweet Vanilla Cream": 0,
-    "Alcremie Flower Sweet Ruby Cream": 0,
-    "Alcremie Flower Sweet Matcha Cream": 0,
-    "Alcremie Flower Sweet Mint Cream": 0,
-    "Alcremie Flower Sweet Lemon Cream": 0,
-    "Alcremie Flower Sweet Salted Cream": 0,
-    "Alcremie Flower Sweet Ruby Swirl": 0,
-    "Alcremie Flower Sweet Caramel Swirl": 0,
-    "Alcremie Flower Sweet Rainbow Swirl": 0,
-    "Alcremie Ribbon Sweet Vanilla Cream": 0,
-    "Alcremie Ribbon Sweet Ruby Cream": 0,
-    "Alcremie Ribbon Sweet Matcha Cream": 0,
-    "Alcremie Ribbon Sweet Mint Cream": 0,
-    "Alcremie Ribbon Sweet Lemon Cream": 0,
-    "Alcremie Ribbon Sweet Salted Cream": 0,
-    "Alcremie Ribbon Sweet Ruby Swirl": 0,
-    "Alcremie Ribbon Sweet Caramel Swirl": 0,
-    "Alcremie Ribbon Sweet Rainbow Swirl": 0,
-    "Falinks": 0,
-    "Pincurchin": 0,
-    "Snom": 0,
-    "Frosmoth": 0,
-    "Stonjourner": 0,
-    "Eiscue": 0,
-    "Indeedee Male": 0,
-    "Indeedee Female": 0,
-    "Morpeko": 0,
-    "Cufant": 0,
-    "Copperajah": 0,
-    "Dracozolt": 0,
-    "Arctozolt": 0,
-    "Dracovish": 0,
-    "Arctovish": 0,
-    "Duraludon": 0,
-    "Dreepy": 0,
-    "Drakloak": 0,
-    "Dragapult": 0,
-    "Zacian": 0,
-    "Zamazenta": 0,
-    "Eternatus": 0,
-    "Kubfu": 0,
-    "Urshifu Single Strike Style": 0,
-    "Urshifu Rapid Strike Style": 0,
-    "Zarude": 0,
-    "Zarude Dada": 0,
-    "Regieleki": 0,
-    "Regidrago": 0,
-    "Glastrier": 0,
-    "Spectrier": 0,
-    "Calyrex": 0,
-    "Wyrdeer": 0,
-    "Kleavor": 0,
-    "Ursaluna": 0,
-    "Ursaluna Bloodmoon": 0,
-    "Basculegion Male": 0,
-    "Basculegion Female": 0,
-    "Sneasler": 0,
-    "Overqwil": 0,
-    "Enamorus Incarnate Form": 0,
-    "Enamorus Therian Form": 0,
-    "Sprigatito": 0,
-    "Floragato": 0,
-    "Meowscarada": 0,
-    "Fuecoco": 0,
-    "Crocalor": 0,
-    "Skeledirge": 0,
-    "Quaxly": 0,
-    "Quaxwell": 0,
-    "Quaquaval": 0,
-    "Lechonk": 0,
-    "Oinkologne Male": 0,
-    "Oinkologne Female": 0,
-    "Tarountula": 0,
-    "Spidops": 0,
-    "Nymble": 0,
-    "Lokix": 0,
-    "Pawmi": 0,
-    "Pawmo": 0,
-    "Pawmot": 0,
-    "Tandemaus": 0,
-    "Maushold Family of Four": 0,
-    "Maushold Family of Three": 0,
-    "Fidough": 0,
-    "Dachsbun": 0,
-    "Smoliv": 0,
-    "Dolliv": 0,
-    "Arboliva": 0,
-    "Squawkabilly Green Plumage": 0,
-    "Squawkabilly Blue Plumage": 0,
-    "Squawkabilly Yellow Plumage": 0,
-    "Squawkabilly White Plumage": 0,
-    "Nacli": 0,
-    "Naclstack": 0,
-    "Garganacl": 0,
-    "Charcadet": 0,
-    "Armarouge": 0,
-    "Ceruledge": 0,
-    "Tadbulb": 0,
-    "Bellibolt": 0,
-    "Wattrel": 0,
-    "Kilowattrel": 0,
-    "Maschiff": 0,
-    "Mabosstiff": 0,
-    "Shroodle": 0,
-    "Grafaiai": 0,
-    "Bramblin": 0,
-    "Brambleghast": 0,
-    "Toedscool": 0,
-    "Toedscruel": 0,
-    "Klawf": 0,
-    "Capsakid": 0,
-    "Scovillain": 0,
-    "Rellor": 0,
-    "Rabsca": 0,
-    "Flittle": 0,
-    "Espathra": 0,
-    "Tinkatink": 0,
-    "Tinkatuff": 0,
-    "Tinkaton": 0,
-    "Wiglett": 0,
-    "Wugtrio": 0,
-    "Bombirdier": 0,
-    "Finizen": 0,
-    "Palafin": 0,
-    "Varoom": 0,
-    "Revavroom": 0,
-    "Cyclizar": 0,
-    "Orthworm": 0,
-    "Glimmet": 0,
-    "Glimmora": 0,
-    "Greavard": 0,
-    "Houndstone": 0,
-    "Flamigo": 0,
-    "Cetoddle": 0,
-    "Cetitan": 0,
-    "Veluza": 0,
-    "Dondozo": 0,
-    "Tatsugiri Curly Form": 0,
-    "Tatsugiri Droopy Form": 0,
-    "Tatsugiri Stretchy Form": 0,
-    "Annihilape": 0,
-    "Clodsire": 0,
-    "Farigiraf": 0,
-    "Dudunsparce Two-Segment Form": 0,
-    "Dudunsparce Three-Segment Form": 0,
-    "Kingambit": 0,
-    "Great Tusk": 0,
-    "Scream Tail": 0,
-    "Brute Bonnet": 0,
-    "Flutter Mane": 0,
-    "Slither Wing": 0,
-    "Sandy Shocks": 0,
-    "Iron Treads": 0,
-    "Iron Bundle": 0,
-    "Iron Hands": 0,
-    "Iron Jugulis": 0,
-    "Iron Moth": 0,
-    "Iron Thorns": 0,
-    "Frigibax": 0,
-    "Arctibax": 0,
-    "Baxcalibur": 0,
-    "Gimmighoul Chest Form": 0,
-    "Gimmighoul Roaming Form": 0,
-    "Gholdengo": 0,
-    "Wo-Chien": 0,
-    "Chien-Pao": 0,
-    "Ting-Lu": 0,
-    "Chi-Yu": 0,
-    "Roaring Moon": 0,
-    "Iron Valiant": 0,
-    "Koraidon": 0,
-    "Miraidon": 0,
-    "Walking Wake": 0,
-    "Iron Leaves": 0,
-    "Dipplin": 0,
-    "Poltchageist Counterfeit Form": 0,
-    "Poltchageist Artisan Form": 0,
-    "Sinistcha Counterfeit Form": 0,
-    "Sinistcha Artisan Form": 0,
-    "Okidogi": 0,
-    "Munkidori": 0,
-    "Fezandipiti": 0,
-    "Ogerpon": 0,
-    "Archaludon": 0,
-    "Hydrapple": 0,
-    "Gouging Fire": 0,
-    "Raging Bolt": 0,
-    "Iron Boulder": 0,
-    "Iron Crown": 0,
-    "Terapagos": 0,
-    "Pecharunt": 0
+    "Bulbasaur": [
+        0,
+        0
+    ],
+    "Ivysaur": [
+        0,
+        0
+    ],
+    "Venusaur Male": [
+        0,
+        0
+    ],
+    "Venusaur Female": [
+        0,
+        0
+    ],
+    "Charmander": [
+        0,
+        0
+    ],
+    "Charmeleon": [
+        0,
+        0
+    ],
+    "Charizard": [
+        0,
+        0
+    ],
+    "Squirtle": [
+        0,
+        0
+    ],
+    "Wartortle": [
+        0,
+        0
+    ],
+    "Blastoise": [
+        0,
+        0
+    ],
+    "Caterpie": [
+        0,
+        0
+    ],
+    "Metapod": [
+        0,
+        0
+    ],
+    "Butterfree Male": [
+        0,
+        0
+    ],
+    "Butterfree Female": [
+        0,
+        0
+    ],
+    "Weedle": [
+        0,
+        0
+    ],
+    "Kakuna": [
+        0,
+        0
+    ],
+    "Beedrill": [
+        0,
+        0
+    ],
+    "Pidgey": [
+        0,
+        0
+    ],
+    "Pidgeotto": [
+        0,
+        0
+    ],
+    "Pidgeot": [
+        0,
+        0
+    ],
+    "Rattata Male": [
+        0,
+        0
+    ],
+    "Rattata Female": [
+        0,
+        0
+    ],
+    "Raticate Male": [
+        0,
+        0
+    ],
+    "Raticate Female": [
+        0,
+        0
+    ],
+    "Spearow": [
+        0,
+        0
+    ],
+    "Fearow": [
+        0,
+        0
+    ],
+    "Ekans": [
+        0,
+        0
+    ],
+    "Arbok": [
+        0,
+        0
+    ],
+    "Pikachu Male": [
+        0,
+        0
+    ],
+    "Pikachu Female": [
+        0,
+        0
+    ],
+    "Pikachu Original Cap": [
+        0,
+        0
+    ],
+    "Pikachu Hoenn Cap": [
+        0,
+        0
+    ],
+    "Pikachu Sinnoh Cap": [
+        0,
+        0
+    ],
+    "Pikachu Unova Cap": [
+        0,
+        0
+    ],
+    "Pikachu Kalos Cap": [
+        0,
+        0
+    ],
+    "Pikachu Alola Cap": [
+        0,
+        0
+    ],
+    "Pikachu Partner Cap": [
+        0,
+        0
+    ],
+    "Pikachu World Cap": [
+        0,
+        0
+    ],
+    "Raichu Male": [
+        0,
+        0
+    ],
+    "Raichu Female": [
+        0,
+        0
+    ],
+    "Sandshrew": [
+        0,
+        0
+    ],
+    "Sandslash": [
+        0,
+        0
+    ],
+    "Nidoran Female": [
+        0,
+        0
+    ],
+    "Nidorina": [
+        0,
+        0
+    ],
+    "Nidoqueen": [
+        0,
+        0
+    ],
+    "Nidoran Male": [
+        0,
+        0
+    ],
+    "Nidorino": [
+        0,
+        0
+    ],
+    "Nidoking": [
+        0,
+        0
+    ],
+    "Clefairy": [
+        0,
+        0
+    ],
+    "Clefable": [
+        0,
+        0
+    ],
+    "Vulpix": [
+        0,
+        0
+    ],
+    "Ninetales": [
+        0,
+        0
+    ],
+    "Jigglypuff": [
+        0,
+        0
+    ],
+    "Wigglytuff": [
+        0,
+        0
+    ],
+    "Zubat Male": [
+        0,
+        0
+    ],
+    "Zubat Female": [
+        0,
+        0
+    ],
+    "Golbat Male": [
+        0,
+        0
+    ],
+    "Golbat Female": [
+        0,
+        0
+    ],
+    "Oddish": [
+        0,
+        0
+    ],
+    "Gloom Male": [
+        0,
+        0
+    ],
+    "Gloom Female": [
+        0,
+        0
+    ],
+    "Vileplume Male": [
+        0,
+        0
+    ],
+    "Vileplume Female": [
+        0,
+        0
+    ],
+    "Paras": [
+        0,
+        0
+    ],
+    "Parasect": [
+        0,
+        0
+    ],
+    "Venonat": [
+        0,
+        0
+    ],
+    "Venomoth": [
+        0,
+        0
+    ],
+    "Diglett": [
+        0,
+        0
+    ],
+    "Dugtrio": [
+        0,
+        0
+    ],
+    "Meowth": [
+        0,
+        0
+    ],
+    "Persian": [
+        0,
+        0
+    ],
+    "Psyduck": [
+        0,
+        0
+    ],
+    "Golduck": [
+        0,
+        0
+    ],
+    "Mankey": [
+        0,
+        0
+    ],
+    "Primeape": [
+        0,
+        0
+    ],
+    "Growlithe": [
+        0,
+        0
+    ],
+    "Arcanine": [
+        0,
+        0
+    ],
+    "Poliwag": [
+        0,
+        0
+    ],
+    "Poliwhirl": [
+        0,
+        0
+    ],
+    "Poliwrath": [
+        0,
+        0
+    ],
+    "Abra": [
+        0,
+        0
+    ],
+    "Kadabra Male": [
+        0,
+        0
+    ],
+    "Kadabra Female": [
+        0,
+        0
+    ],
+    "Alakazam Male": [
+        0,
+        0
+    ],
+    "Alakazam Female": [
+        0,
+        0
+    ],
+    "Machop": [
+        0,
+        0
+    ],
+    "Machoke": [
+        0,
+        0
+    ],
+    "Machamp": [
+        0,
+        0
+    ],
+    "Bellsprout": [
+        0,
+        0
+    ],
+    "Weepinbell": [
+        0,
+        0
+    ],
+    "Victreebel": [
+        0,
+        0
+    ],
+    "Tentacool": [
+        0,
+        0
+    ],
+    "Tentacruel": [
+        0,
+        0
+    ],
+    "Geodude": [
+        0,
+        0
+    ],
+    "Graveler": [
+        0,
+        0
+    ],
+    "Golem": [
+        0,
+        0
+    ],
+    "Ponyta": [
+        0,
+        0
+    ],
+    "Rapidash": [
+        0,
+        0
+    ],
+    "Slowpoke": [
+        0,
+        0
+    ],
+    "Slowbro": [
+        0,
+        0
+    ],
+    "Magnemite": [
+        0,
+        0
+    ],
+    "Magneton": [
+        0,
+        0
+    ],
+    "Farfetch'd": [
+        0,
+        0
+    ],
+    "Doduo Male": [
+        0,
+        0
+    ],
+    "Doduo Female": [
+        0,
+        0
+    ],
+    "Dodrio Male": [
+        0,
+        0
+    ],
+    "Dodrio Female": [
+        0,
+        0
+    ],
+    "Seel": [
+        0,
+        0
+    ],
+    "Dewgong": [
+        0,
+        0
+    ],
+    "Grimer": [
+        0,
+        0
+    ],
+    "Muk": [
+        0,
+        0
+    ],
+    "Shellder": [
+        0,
+        0
+    ],
+    "Cloyster": [
+        0,
+        0
+    ],
+    "Gastly": [
+        0,
+        0
+    ],
+    "Haunter": [
+        0,
+        0
+    ],
+    "Gengar": [
+        0,
+        0
+    ],
+    "Onix": [
+        0,
+        0
+    ],
+    "Drowzee": [
+        0,
+        0
+    ],
+    "Hypno Male": [
+        0,
+        0
+    ],
+    "Hypno Female": [
+        0,
+        0
+    ],
+    "Krabby": [
+        0,
+        0
+    ],
+    "Kingler": [
+        0,
+        0
+    ],
+    "Voltorb": [
+        0,
+        0
+    ],
+    "Electrode": [
+        0,
+        0
+    ],
+    "Exeggcute": [
+        0,
+        0
+    ],
+    "Exeggutor": [
+        0,
+        0
+    ],
+    "Cubone": [
+        0,
+        0
+    ],
+    "Marowak": [
+        0,
+        0
+    ],
+    "Hitmonlee": [
+        0,
+        0
+    ],
+    "Hitmonchan": [
+        0,
+        0
+    ],
+    "Lickitung": [
+        0,
+        0
+    ],
+    "Koffing": [
+        0,
+        0
+    ],
+    "Weezing": [
+        0,
+        0
+    ],
+    "Rhyhorn Male": [
+        0,
+        0
+    ],
+    "Rhyhorn Female": [
+        0,
+        0
+    ],
+    "Rhydon Male": [
+        0,
+        0
+    ],
+    "Rhydon Female": [
+        0,
+        0
+    ],
+    "Chansey": [
+        0,
+        0
+    ],
+    "Tangela": [
+        0,
+        0
+    ],
+    "Kangaskhan": [
+        0,
+        0
+    ],
+    "Horsea": [
+        0,
+        0
+    ],
+    "Seadra": [
+        0,
+        0
+    ],
+    "Goldeen Male": [
+        0,
+        0
+    ],
+    "Goldeen Female": [
+        0,
+        0
+    ],
+    "Seaking Male": [
+        0,
+        0
+    ],
+    "Seaking Female": [
+        0,
+        0
+    ],
+    "Staryu": [
+        0,
+        0
+    ],
+    "Starmie": [
+        0,
+        0
+    ],
+    "Mr. Mime": [
+        0,
+        0
+    ],
+    "Scyther Male": [
+        0,
+        0
+    ],
+    "Scyther Female": [
+        0,
+        0
+    ],
+    "Jynx": [
+        0,
+        0
+    ],
+    "Electabuzz": [
+        0,
+        0
+    ],
+    "Magmar": [
+        0,
+        0
+    ],
+    "Pinsir": [
+        0,
+        0
+    ],
+    "Tauros": [
+        0,
+        0
+    ],
+    "Paldean Tauros Combat Breed": [
+        0,
+        0
+    ],
+    "Paldean Tauros Blaze Breed": [
+        0,
+        0
+    ],
+    "Paldean Tauros Aqua Breed": [
+        0,
+        0
+    ],
+    "Magikarp Male": [
+        0,
+        0
+    ],
+    "Magikarp Female": [
+        0,
+        0
+    ],
+    "Gyarados Male": [
+        0,
+        0
+    ],
+    "Gyarados Female": [
+        0,
+        0
+    ],
+    "Lapras": [
+        0,
+        0
+    ],
+    "Ditto": [
+        0,
+        0
+    ],
+    "Eevee Male": [
+        0,
+        0
+    ],
+    "Eevee Female": [
+        0,
+        0
+    ],
+    "Vaporeon": [
+        0,
+        0
+    ],
+    "Jolteon": [
+        0,
+        0
+    ],
+    "Flareon": [
+        0,
+        0
+    ],
+    "Porygon": [
+        0,
+        0
+    ],
+    "Omanyte": [
+        0,
+        0
+    ],
+    "Omastar": [
+        0,
+        0
+    ],
+    "Kabuto": [
+        0,
+        0
+    ],
+    "Kabutops": [
+        0,
+        0
+    ],
+    "Aerodactyl": [
+        0,
+        0
+    ],
+    "Snorlax": [
+        0,
+        0
+    ],
+    "Articuno": [
+        0,
+        0
+    ],
+    "Zapdos": [
+        0,
+        0
+    ],
+    "Moltres": [
+        0,
+        0
+    ],
+    "Dratini": [
+        0,
+        0
+    ],
+    "Dragonair": [
+        0,
+        0
+    ],
+    "Dragonite": [
+        0,
+        0
+    ],
+    "Mewtwo": [
+        0,
+        0
+    ],
+    "Mew": [
+        0,
+        0
+    ],
+    "Chikorita": [
+        0,
+        0
+    ],
+    "Bayleef": [
+        0,
+        0
+    ],
+    "Meganium Male": [
+        0,
+        0
+    ],
+    "Meganium Female": [
+        0,
+        0
+    ],
+    "Cyndaquil": [
+        0,
+        0
+    ],
+    "Quilava": [
+        0,
+        0
+    ],
+    "Typhlosion": [
+        0,
+        0
+    ],
+    "Totodile": [
+        0,
+        0
+    ],
+    "Croconaw": [
+        0,
+        0
+    ],
+    "Feraligatr": [
+        0,
+        0
+    ],
+    "Sentret": [
+        0,
+        0
+    ],
+    "Furret": [
+        0,
+        0
+    ],
+    "Hoothoot": [
+        0,
+        0
+    ],
+    "Noctowl": [
+        0,
+        0
+    ],
+    "Ledyba Male": [
+        0,
+        0
+    ],
+    "Ledyba Female": [
+        0,
+        0
+    ],
+    "Ledian Male": [
+        0,
+        0
+    ],
+    "Ledian Female": [
+        0,
+        0
+    ],
+    "Spinarak": [
+        0,
+        0
+    ],
+    "Ariados": [
+        0,
+        0
+    ],
+    "Crobat": [
+        0,
+        0
+    ],
+    "Chinchou": [
+        0,
+        0
+    ],
+    "Lanturn": [
+        0,
+        0
+    ],
+    "Pichu": [
+        0,
+        0
+    ],
+    "Cleffa": [
+        0,
+        0
+    ],
+    "Igglybuff": [
+        0,
+        0
+    ],
+    "Togepi": [
+        0,
+        0
+    ],
+    "Togetic": [
+        0,
+        0
+    ],
+    "Natu": [
+        0,
+        0
+    ],
+    "Xatu Male": [
+        0,
+        0
+    ],
+    "Xatu Female": [
+        0,
+        0
+    ],
+    "Mareep": [
+        0,
+        0
+    ],
+    "Flaaffy": [
+        0,
+        0
+    ],
+    "Ampharos": [
+        0,
+        0
+    ],
+    "Bellossom": [
+        0,
+        0
+    ],
+    "Marill": [
+        0,
+        0
+    ],
+    "Azumarill": [
+        0,
+        0
+    ],
+    "Sudowoodo Male": [
+        0,
+        0
+    ],
+    "Sudowoodo Female": [
+        0,
+        0
+    ],
+    "Politoed Male": [
+        0,
+        0
+    ],
+    "Politoed Female": [
+        0,
+        0
+    ],
+    "Hoppip": [
+        0,
+        0
+    ],
+    "Skiploom": [
+        0,
+        0
+    ],
+    "Jumpluff": [
+        0,
+        0
+    ],
+    "Aipom Male": [
+        0,
+        0
+    ],
+    "Aipom Female": [
+        0,
+        0
+    ],
+    "Sunkern": [
+        0,
+        0
+    ],
+    "Sunflora": [
+        0,
+        0
+    ],
+    "Yanma": [
+        0,
+        0
+    ],
+    "Wooper Male": [
+        0,
+        0
+    ],
+    "Wooper Female": [
+        0,
+        0
+    ],
+    "Quagsire Male": [
+        0,
+        0
+    ],
+    "Quagsire Female": [
+        0,
+        0
+    ],
+    "Espeon": [
+        0,
+        0
+    ],
+    "Umbreon": [
+        0,
+        0
+    ],
+    "Murkrow Male": [
+        0,
+        0
+    ],
+    "Murkrow Female": [
+        0,
+        0
+    ],
+    "Slowking": [
+        0,
+        0
+    ],
+    "Misdreavus": [
+        0,
+        0
+    ],
+    "Unown A": [
+        0,
+        0
+    ],
+    "Unown B": [
+        0,
+        0
+    ],
+    "Unown C": [
+        0,
+        0
+    ],
+    "Unown D": [
+        0,
+        0
+    ],
+    "Unown E": [
+        0,
+        0
+    ],
+    "Unown F": [
+        0,
+        0
+    ],
+    "Unown G": [
+        0,
+        0
+    ],
+    "Unown H": [
+        0,
+        0
+    ],
+    "Unown I": [
+        0,
+        0
+    ],
+    "Unown J": [
+        0,
+        0
+    ],
+    "Unown K": [
+        0,
+        0
+    ],
+    "Unown L": [
+        0,
+        0
+    ],
+    "Unown M": [
+        0,
+        0
+    ],
+    "Unown N": [
+        0,
+        0
+    ],
+    "Unown O": [
+        0,
+        0
+    ],
+    "Unown P": [
+        0,
+        0
+    ],
+    "Unown Q": [
+        0,
+        0
+    ],
+    "Unown R": [
+        0,
+        0
+    ],
+    "Unown S": [
+        0,
+        0
+    ],
+    "Unown T": [
+        0,
+        0
+    ],
+    "Unown U": [
+        0,
+        0
+    ],
+    "Unown V": [
+        0,
+        0
+    ],
+    "Unown W": [
+        0,
+        0
+    ],
+    "Unown X": [
+        0,
+        0
+    ],
+    "Unown Y": [
+        0,
+        0
+    ],
+    "Unown Z": [
+        0,
+        0
+    ],
+    "Unown !": [
+        0,
+        0
+    ],
+    "Unown ?": [
+        0,
+        0
+    ],
+    "Wobbuffet Male": [
+        0,
+        0
+    ],
+    "Wobbuffet Female": [
+        0,
+        0
+    ],
+    "Girafarig Male": [
+        0,
+        0
+    ],
+    "Girafarig Female": [
+        0,
+        0
+    ],
+    "Pineco": [
+        0,
+        0
+    ],
+    "Forretress": [
+        0,
+        0
+    ],
+    "Dunsparce": [
+        0,
+        0
+    ],
+    "Gligar Male": [
+        0,
+        0
+    ],
+    "Gligar Female": [
+        0,
+        0
+    ],
+    "Steelix Male": [
+        0,
+        0
+    ],
+    "Steelix Female": [
+        0,
+        0
+    ],
+    "Snubbull": [
+        0,
+        0
+    ],
+    "Granbull": [
+        0,
+        0
+    ],
+    "Qwilfish": [
+        0,
+        0
+    ],
+    "Scizor Male": [
+        0,
+        0
+    ],
+    "Scizor Female": [
+        0,
+        0
+    ],
+    "Shuckle": [
+        0,
+        0
+    ],
+    "Heracross Male": [
+        0,
+        0
+    ],
+    "Heracross Female": [
+        0,
+        0
+    ],
+    "Sneasel Male": [
+        0,
+        0
+    ],
+    "Sneasel Female": [
+        0,
+        0
+    ],
+    "Hisuian Sneasel Male": [
+        0,
+        0
+    ],
+    "Hisuian Sneasel Female": [
+        0,
+        0
+    ],
+    "Teddiursa": [
+        0,
+        0
+    ],
+    "Ursaring Male": [
+        0,
+        0
+    ],
+    "Ursaring Female": [
+        0,
+        0
+    ],
+    "Slugma": [
+        0,
+        0
+    ],
+    "Magcargo": [
+        0,
+        0
+    ],
+    "Swinub": [
+        0,
+        0
+    ],
+    "Piloswine Male": [
+        0,
+        0
+    ],
+    "Piloswine Female": [
+        0,
+        0
+    ],
+    "Corsola": [
+        0,
+        0
+    ],
+    "Remoraid": [
+        0,
+        0
+    ],
+    "Octillery Male": [
+        0,
+        0
+    ],
+    "Octillery Female": [
+        0,
+        0
+    ],
+    "Delibird": [
+        0,
+        0
+    ],
+    "Mantine": [
+        0,
+        0
+    ],
+    "Skarmory": [
+        0,
+        0
+    ],
+    "Houndour": [
+        0,
+        0
+    ],
+    "Houndoom Male": [
+        0,
+        0
+    ],
+    "Houndoom Female": [
+        0,
+        0
+    ],
+    "Kingdra": [
+        0,
+        0
+    ],
+    "Phanpy": [
+        0,
+        0
+    ],
+    "Donphan Male": [
+        0,
+        0
+    ],
+    "Donphan Female": [
+        0,
+        0
+    ],
+    "Porygon2": [
+        0,
+        0
+    ],
+    "Stantler": [
+        0,
+        0
+    ],
+    "Smeargle": [
+        0,
+        0
+    ],
+    "Tyrogue": [
+        0,
+        0
+    ],
+    "Hitmontop": [
+        0,
+        0
+    ],
+    "Smoochum": [
+        0,
+        0
+    ],
+    "Elekid": [
+        0,
+        0
+    ],
+    "Magby": [
+        0,
+        0
+    ],
+    "Miltank": [
+        0,
+        0
+    ],
+    "Blissey": [
+        0,
+        0
+    ],
+    "Raikou": [
+        0,
+        0
+    ],
+    "Entei": [
+        0,
+        0
+    ],
+    "Suicune": [
+        0,
+        0
+    ],
+    "Larvitar": [
+        0,
+        0
+    ],
+    "Pupitar": [
+        0,
+        0
+    ],
+    "Tyranitar": [
+        0,
+        0
+    ],
+    "Lugia": [
+        0,
+        0
+    ],
+    "Ho-oh": [
+        0,
+        0
+    ],
+    "Celebi": [
+        0,
+        0
+    ],
+    "Treecko": [
+        0,
+        0
+    ],
+    "Grovyle": [
+        0,
+        0
+    ],
+    "Sceptile": [
+        0,
+        0
+    ],
+    "Torchic Male": [
+        0,
+        0
+    ],
+    "Torchic Female": [
+        0,
+        0
+    ],
+    "Combusken Male": [
+        0,
+        0
+    ],
+    "Combusken Female": [
+        0,
+        0
+    ],
+    "Blaziken Male": [
+        0,
+        0
+    ],
+    "Blaziken Female": [
+        0,
+        0
+    ],
+    "Mudkip": [
+        0,
+        0
+    ],
+    "Marshtomp": [
+        0,
+        0
+    ],
+    "Swampert": [
+        0,
+        0
+    ],
+    "Poochyena": [
+        0,
+        0
+    ],
+    "Mightyena": [
+        0,
+        0
+    ],
+    "Zigzagoon": [
+        0,
+        0
+    ],
+    "Linoone": [
+        0,
+        0
+    ],
+    "Wurmple": [
+        0,
+        0
+    ],
+    "Silcoon": [
+        0,
+        0
+    ],
+    "Beautifly Male": [
+        0,
+        0
+    ],
+    "Beautifly Female": [
+        0,
+        0
+    ],
+    "Cascoon": [
+        0,
+        0
+    ],
+    "Dustox Male": [
+        0,
+        0
+    ],
+    "Dustox Female": [
+        0,
+        0
+    ],
+    "Lotad": [
+        0,
+        0
+    ],
+    "Lombre": [
+        0,
+        0
+    ],
+    "Ludicolo Male": [
+        0,
+        0
+    ],
+    "Ludicolo Female": [
+        0,
+        0
+    ],
+    "Seedot": [
+        0,
+        0
+    ],
+    "Nuzleaf Male": [
+        0,
+        0
+    ],
+    "Nuzleaf Female": [
+        0,
+        0
+    ],
+    "Shiftry Male": [
+        0,
+        0
+    ],
+    "Shiftry Female": [
+        0,
+        0
+    ],
+    "Taillow": [
+        0,
+        0
+    ],
+    "Swellow": [
+        0,
+        0
+    ],
+    "Wingull": [
+        0,
+        0
+    ],
+    "Pelipper": [
+        0,
+        0
+    ],
+    "Ralts": [
+        0,
+        0
+    ],
+    "Kirlia": [
+        0,
+        0
+    ],
+    "Gardevoir": [
+        0,
+        0
+    ],
+    "Surskit": [
+        0,
+        0
+    ],
+    "Masquerain": [
+        0,
+        0
+    ],
+    "Shroomish": [
+        0,
+        0
+    ],
+    "Breloom": [
+        0,
+        0
+    ],
+    "Slakoth": [
+        0,
+        0
+    ],
+    "Vigoroth": [
+        0,
+        0
+    ],
+    "Slaking": [
+        0,
+        0
+    ],
+    "Nincada": [
+        0,
+        0
+    ],
+    "Ninjask": [
+        0,
+        0
+    ],
+    "Shedinja": [
+        0,
+        0
+    ],
+    "Whismur": [
+        0,
+        0
+    ],
+    "Loudred": [
+        0,
+        0
+    ],
+    "Exploud": [
+        0,
+        0
+    ],
+    "Makuhita": [
+        0,
+        0
+    ],
+    "Hariyama": [
+        0,
+        0
+    ],
+    "Azurill": [
+        0,
+        0
+    ],
+    "Nosepass": [
+        0,
+        0
+    ],
+    "Skitty": [
+        0,
+        0
+    ],
+    "Delcatty": [
+        0,
+        0
+    ],
+    "Sableye": [
+        0,
+        0
+    ],
+    "Mawile": [
+        0,
+        0
+    ],
+    "Aron": [
+        0,
+        0
+    ],
+    "Lairon": [
+        0,
+        0
+    ],
+    "Aggron": [
+        0,
+        0
+    ],
+    "Meditite Male": [
+        0,
+        0
+    ],
+    "Meditite Female": [
+        0,
+        0
+    ],
+    "Medicham Male": [
+        0,
+        0
+    ],
+    "Medicham Female": [
+        0,
+        0
+    ],
+    "Electrike": [
+        0,
+        0
+    ],
+    "Manectric": [
+        0,
+        0
+    ],
+    "Plusle": [
+        0,
+        0
+    ],
+    "Minun": [
+        0,
+        0
+    ],
+    "Volbeat": [
+        0,
+        0
+    ],
+    "Illumise": [
+        0,
+        0
+    ],
+    "Roselia Male": [
+        0,
+        0
+    ],
+    "Roselia Female": [
+        0,
+        0
+    ],
+    "Gulpin Male": [
+        0,
+        0
+    ],
+    "Gulpin Female": [
+        0,
+        0
+    ],
+    "Swalot Male": [
+        0,
+        0
+    ],
+    "Swalot Female": [
+        0,
+        0
+    ],
+    "Carvanha": [
+        0,
+        0
+    ],
+    "Sharpedo": [
+        0,
+        0
+    ],
+    "Wailmer": [
+        0,
+        0
+    ],
+    "Wailord": [
+        0,
+        0
+    ],
+    "Numel Male": [
+        0,
+        0
+    ],
+    "Numel Female": [
+        0,
+        0
+    ],
+    "Camerupt Male": [
+        0,
+        0
+    ],
+    "Camerupt Female": [
+        0,
+        0
+    ],
+    "Torkoal": [
+        0,
+        0
+    ],
+    "Spoink": [
+        0,
+        0
+    ],
+    "Grumpig": [
+        0,
+        0
+    ],
+    "Spinda": [
+        0,
+        0
+    ],
+    "Trapinch": [
+        0,
+        0
+    ],
+    "Vibrava": [
+        0,
+        0
+    ],
+    "Flygon": [
+        0,
+        0
+    ],
+    "Cacnea": [
+        0,
+        0
+    ],
+    "Cacturne Male": [
+        0,
+        0
+    ],
+    "Cacturne Female": [
+        0,
+        0
+    ],
+    "Swablu": [
+        0,
+        0
+    ],
+    "Altaria": [
+        0,
+        0
+    ],
+    "Zangoose": [
+        0,
+        0
+    ],
+    "Seviper": [
+        0,
+        0
+    ],
+    "Lunatone": [
+        0,
+        0
+    ],
+    "Solrock": [
+        0,
+        0
+    ],
+    "Barboach": [
+        0,
+        0
+    ],
+    "Whiscash": [
+        0,
+        0
+    ],
+    "Corphish": [
+        0,
+        0
+    ],
+    "Crawdaunt": [
+        0,
+        0
+    ],
+    "Baltoy": [
+        0,
+        0
+    ],
+    "Claydol": [
+        0,
+        0
+    ],
+    "Lileep": [
+        0,
+        0
+    ],
+    "Cradily": [
+        0,
+        0
+    ],
+    "Anorith": [
+        0,
+        0
+    ],
+    "Armaldo": [
+        0,
+        0
+    ],
+    "Feebas": [
+        0,
+        0
+    ],
+    "Milotic Male": [
+        0,
+        0
+    ],
+    "Milotic Female": [
+        0,
+        0
+    ],
+    "Castform": [
+        0,
+        0
+    ],
+    "Kecleon": [
+        0,
+        0
+    ],
+    "Shuppet": [
+        0,
+        0
+    ],
+    "Banette": [
+        0,
+        0
+    ],
+    "Duskull": [
+        0,
+        0
+    ],
+    "Dusclops": [
+        0,
+        0
+    ],
+    "Tropius": [
+        0,
+        0
+    ],
+    "Chimecho": [
+        0,
+        0
+    ],
+    "Absol": [
+        0,
+        0
+    ],
+    "Wynaut": [
+        0,
+        0
+    ],
+    "Snorunt": [
+        0,
+        0
+    ],
+    "Glalie": [
+        0,
+        0
+    ],
+    "Spheal": [
+        0,
+        0
+    ],
+    "Sealeo": [
+        0,
+        0
+    ],
+    "Walrein": [
+        0,
+        0
+    ],
+    "Clamperl": [
+        0,
+        0
+    ],
+    "Huntail": [
+        0,
+        0
+    ],
+    "Gorebyss": [
+        0,
+        0
+    ],
+    "Relicanth Male": [
+        0,
+        0
+    ],
+    "Relicanth Female": [
+        0,
+        0
+    ],
+    "Luvdisc": [
+        0,
+        0
+    ],
+    "Bagon": [
+        0,
+        0
+    ],
+    "Shelgon": [
+        0,
+        0
+    ],
+    "Salamence": [
+        0,
+        0
+    ],
+    "Beldum": [
+        0,
+        0
+    ],
+    "Metang": [
+        0,
+        0
+    ],
+    "Metagross": [
+        0,
+        0
+    ],
+    "Regirock": [
+        0,
+        0
+    ],
+    "Regice": [
+        0,
+        0
+    ],
+    "Registeel": [
+        0,
+        0
+    ],
+    "Latias": [
+        0,
+        0
+    ],
+    "Latios": [
+        0,
+        0
+    ],
+    "Kyogre": [
+        0,
+        0
+    ],
+    "Groudon": [
+        0,
+        0
+    ],
+    "Rayquaza": [
+        0,
+        0
+    ],
+    "Jirachi": [
+        0,
+        0
+    ],
+    "Deoxys Normal Forme": [
+        0,
+        0
+    ],
+    "Deoxys Attack Forme": [
+        0,
+        0
+    ],
+    "Deoxys Defense Forme": [
+        0,
+        0
+    ],
+    "Deoxys Speed Forme": [
+        0,
+        0
+    ],
+    "Turtwig": [
+        0,
+        0
+    ],
+    "Grotle": [
+        0,
+        0
+    ],
+    "Torterra": [
+        0,
+        0
+    ],
+    "Chimchar": [
+        0,
+        0
+    ],
+    "Monferno": [
+        0,
+        0
+    ],
+    "Infernape": [
+        0,
+        0
+    ],
+    "Piplup": [
+        0,
+        0
+    ],
+    "Prinplup": [
+        0,
+        0
+    ],
+    "Empoleon": [
+        0,
+        0
+    ],
+    "Starly Male": [
+        0,
+        0
+    ],
+    "Starly Female": [
+        0,
+        0
+    ],
+    "Staravia Male": [
+        0,
+        0
+    ],
+    "Staravia Female": [
+        0,
+        0
+    ],
+    "Staraptor Male": [
+        0,
+        0
+    ],
+    "Staraptor Female": [
+        0,
+        0
+    ],
+    "Bidoof Male": [
+        0,
+        0
+    ],
+    "Bidoof Female": [
+        0,
+        0
+    ],
+    "Bibarel Male": [
+        0,
+        0
+    ],
+    "Bibarel Female": [
+        0,
+        0
+    ],
+    "Kricketot Male": [
+        0,
+        0
+    ],
+    "Kricketot Female": [
+        0,
+        0
+    ],
+    "Kricketune Male": [
+        0,
+        0
+    ],
+    "Kricketune Female": [
+        0,
+        0
+    ],
+    "Shinx Male": [
+        0,
+        0
+    ],
+    "Shinx Female": [
+        0,
+        0
+    ],
+    "Luxio Male": [
+        0,
+        0
+    ],
+    "Luxio Female": [
+        0,
+        0
+    ],
+    "Luxray Male": [
+        0,
+        0
+    ],
+    "Luxray Female": [
+        0,
+        0
+    ],
+    "Budew": [
+        0,
+        0
+    ],
+    "Roserade Male": [
+        0,
+        0
+    ],
+    "Roserade Female": [
+        0,
+        0
+    ],
+    "Cranidos": [
+        0,
+        0
+    ],
+    "Rampardos": [
+        0,
+        0
+    ],
+    "Shieldon": [
+        0,
+        0
+    ],
+    "Bastiodon": [
+        0,
+        0
+    ],
+    "Burmy Plant Cloak": [
+        0,
+        0
+    ],
+    "Burmy Sandy Cloak": [
+        0,
+        0
+    ],
+    "Burmy Trash Cloak": [
+        0,
+        0
+    ],
+    "Wormadam Plant Cloak": [
+        0,
+        0
+    ],
+    "Wormadam Sandy Cloak": [
+        0,
+        0
+    ],
+    "Wormadam Trash Cloak": [
+        0,
+        0
+    ],
+    "Mothim": [
+        0,
+        0
+    ],
+    "Combee Male": [
+        0,
+        0
+    ],
+    "Combee Female": [
+        0,
+        0
+    ],
+    "Vespiquen": [
+        0,
+        0
+    ],
+    "Pachirisu Male": [
+        0,
+        0
+    ],
+    "Pachirisu Female": [
+        0,
+        0
+    ],
+    "Buizel Male": [
+        0,
+        0
+    ],
+    "Buizel Female": [
+        0,
+        0
+    ],
+    "Floatzel Male": [
+        0,
+        0
+    ],
+    "Floatzel Female": [
+        0,
+        0
+    ],
+    "Cherubi": [
+        0,
+        0
+    ],
+    "Cherrim": [
+        0,
+        0
+    ],
+    "Shellos West Sea": [
+        0,
+        0
+    ],
+    "Shellos East Sea": [
+        0,
+        0
+    ],
+    "Gastrodon": [
+        0,
+        0
+    ],
+    "Ambipom Male": [
+        0,
+        0
+    ],
+    "Ambipom Female": [
+        0,
+        0
+    ],
+    "Drifloon": [
+        0,
+        0
+    ],
+    "Drifblim": [
+        0,
+        0
+    ],
+    "Buneary": [
+        0,
+        0
+    ],
+    "Lopunny": [
+        0,
+        0
+    ],
+    "Mismagius": [
+        0,
+        0
+    ],
+    "Honchkrow": [
+        0,
+        0
+    ],
+    "Glameow": [
+        0,
+        0
+    ],
+    "Purugly": [
+        0,
+        0
+    ],
+    "Chingling": [
+        0,
+        0
+    ],
+    "Stunky": [
+        0,
+        0
+    ],
+    "Skuntank": [
+        0,
+        0
+    ],
+    "Bronzor": [
+        0,
+        0
+    ],
+    "Bronzong": [
+        0,
+        0
+    ],
+    "Bonsly": [
+        0,
+        0
+    ],
+    "Mime Jr.": [
+        0,
+        0
+    ],
+    "Happiny": [
+        0,
+        0
+    ],
+    "Chatot": [
+        0,
+        0
+    ],
+    "Spiritomb": [
+        0,
+        0
+    ],
+    "Gible Male": [
+        0,
+        0
+    ],
+    "Gible Female": [
+        0,
+        0
+    ],
+    "Gabite Male": [
+        0,
+        0
+    ],
+    "Gabite Female": [
+        0,
+        0
+    ],
+    "Garchomp Male": [
+        0,
+        0
+    ],
+    "Garchomp Female": [
+        0,
+        0
+    ],
+    "Munchlax": [
+        0,
+        0
+    ],
+    "Riolu": [
+        0,
+        0
+    ],
+    "Lucario": [
+        0,
+        0
+    ],
+    "Hippopotas Male": [
+        0,
+        0
+    ],
+    "Hippopotas Female": [
+        0,
+        0
+    ],
+    "Hippowdon Male": [
+        0,
+        0
+    ],
+    "Hippowdon Female": [
+        0,
+        0
+    ],
+    "Skorupi": [
+        0,
+        0
+    ],
+    "Drapion": [
+        0,
+        0
+    ],
+    "Croagunk Male": [
+        0,
+        0
+    ],
+    "Croagunk Female": [
+        0,
+        0
+    ],
+    "Toxicroak Male": [
+        0,
+        0
+    ],
+    "Toxicroak Female": [
+        0,
+        0
+    ],
+    "Carnivine": [
+        0,
+        0
+    ],
+    "Finneon Male": [
+        0,
+        0
+    ],
+    "Finneon Female": [
+        0,
+        0
+    ],
+    "Lumineon Male": [
+        0,
+        0
+    ],
+    "Lumineon Female": [
+        0,
+        0
+    ],
+    "Mantyke": [
+        0,
+        0
+    ],
+    "Snover Male": [
+        0,
+        0
+    ],
+    "Snover Female": [
+        0,
+        0
+    ],
+    "Abomasnow Male": [
+        0,
+        0
+    ],
+    "Abomasnow Female": [
+        0,
+        0
+    ],
+    "Weavile Male": [
+        0,
+        0
+    ],
+    "Weavile Female": [
+        0,
+        0
+    ],
+    "Magnezone": [
+        0,
+        0
+    ],
+    "Lickilicky": [
+        0,
+        0
+    ],
+    "Rhyperior Male": [
+        0,
+        0
+    ],
+    "Rhyperior Female": [
+        0,
+        0
+    ],
+    "Tangrowth Male": [
+        0,
+        0
+    ],
+    "Tangrowth Female": [
+        0,
+        0
+    ],
+    "Electivire": [
+        0,
+        0
+    ],
+    "Magmortar": [
+        0,
+        0
+    ],
+    "Togekiss": [
+        0,
+        0
+    ],
+    "Yanmega": [
+        0,
+        0
+    ],
+    "Leafeon": [
+        0,
+        0
+    ],
+    "Glaceon": [
+        0,
+        0
+    ],
+    "Gliscor": [
+        0,
+        0
+    ],
+    "Mamoswine Male": [
+        0,
+        0
+    ],
+    "Mamoswine Female": [
+        0,
+        0
+    ],
+    "Porygon-Z": [
+        0,
+        0
+    ],
+    "Gallade": [
+        0,
+        0
+    ],
+    "Probopass": [
+        0,
+        0
+    ],
+    "Dusknoir": [
+        0,
+        0
+    ],
+    "Froslass": [
+        0,
+        0
+    ],
+    "Rotom": [
+        0,
+        0
+    ],
+    "Heat Rotom": [
+        0,
+        0
+    ],
+    "Wash Rotom": [
+        0,
+        0
+    ],
+    "Frost Rotom": [
+        0,
+        0
+    ],
+    "Fan Rotom": [
+        0,
+        0
+    ],
+    "Mow Rotom": [
+        0,
+        0
+    ],
+    "Uxie": [
+        0,
+        0
+    ],
+    "Mesprit": [
+        0,
+        0
+    ],
+    "Azelf": [
+        0,
+        0
+    ],
+    "Dialga": [
+        0,
+        0
+    ],
+    "Palkia": [
+        0,
+        0
+    ],
+    "Heatran": [
+        0,
+        0
+    ],
+    "Regigigas": [
+        0,
+        0
+    ],
+    "Giratina": [
+        0,
+        0
+    ],
+    "Cresselia": [
+        0,
+        0
+    ],
+    "Phione": [
+        0,
+        0
+    ],
+    "Manaphy": [
+        0,
+        0
+    ],
+    "Darkrai": [
+        0,
+        0
+    ],
+    "Shaymin Land Forme": [
+        0,
+        0
+    ],
+    "Shaymin Sky Forme": [
+        0,
+        0
+    ],
+    "Arceus": [
+        0,
+        0
+    ],
+    "Victini": [
+        0,
+        0
+    ],
+    "Snivy": [
+        0,
+        0
+    ],
+    "Servine": [
+        0,
+        0
+    ],
+    "Serperior": [
+        0,
+        0
+    ],
+    "Tepig": [
+        0,
+        0
+    ],
+    "Pignite": [
+        0,
+        0
+    ],
+    "Emboar": [
+        0,
+        0
+    ],
+    "Oshawott": [
+        0,
+        0
+    ],
+    "Dewott": [
+        0,
+        0
+    ],
+    "Samurott": [
+        0,
+        0
+    ],
+    "Patrat": [
+        0,
+        0
+    ],
+    "Watchog": [
+        0,
+        0
+    ],
+    "Lillipup": [
+        0,
+        0
+    ],
+    "Herdier": [
+        0,
+        0
+    ],
+    "Stoutland": [
+        0,
+        0
+    ],
+    "Purrloin": [
+        0,
+        0
+    ],
+    "Liepard": [
+        0,
+        0
+    ],
+    "Pansage": [
+        0,
+        0
+    ],
+    "Simisage": [
+        0,
+        0
+    ],
+    "Pansear": [
+        0,
+        0
+    ],
+    "Simisear": [
+        0,
+        0
+    ],
+    "Panpour": [
+        0,
+        0
+    ],
+    "Simipour": [
+        0,
+        0
+    ],
+    "Munna": [
+        0,
+        0
+    ],
+    "Musharna": [
+        0,
+        0
+    ],
+    "Pidove": [
+        0,
+        0
+    ],
+    "Tranquill": [
+        0,
+        0
+    ],
+    "Unfezant Male": [
+        0,
+        0
+    ],
+    "Unfezant Female": [
+        0,
+        0
+    ],
+    "Blitzle": [
+        0,
+        0
+    ],
+    "Zebstrika": [
+        0,
+        0
+    ],
+    "Roggenrola": [
+        0,
+        0
+    ],
+    "Boldore": [
+        0,
+        0
+    ],
+    "Gigalith": [
+        0,
+        0
+    ],
+    "Woobat": [
+        0,
+        0
+    ],
+    "Swoobat": [
+        0,
+        0
+    ],
+    "Drilbur": [
+        0,
+        0
+    ],
+    "Excadrill": [
+        0,
+        0
+    ],
+    "Audino": [
+        0,
+        0
+    ],
+    "Timburr": [
+        0,
+        0
+    ],
+    "Gurdurr": [
+        0,
+        0
+    ],
+    "Conkeldurr": [
+        0,
+        0
+    ],
+    "Tympole": [
+        0,
+        0
+    ],
+    "Palpitoad": [
+        0,
+        0
+    ],
+    "Seismitoad": [
+        0,
+        0
+    ],
+    "Throh": [
+        0,
+        0
+    ],
+    "Sawk": [
+        0,
+        0
+    ],
+    "Sewaddle": [
+        0,
+        0
+    ],
+    "Swadloon": [
+        0,
+        0
+    ],
+    "Leavanny": [
+        0,
+        0
+    ],
+    "Venipede": [
+        0,
+        0
+    ],
+    "Whirlipede": [
+        0,
+        0
+    ],
+    "Scolipede": [
+        0,
+        0
+    ],
+    "Cottonee": [
+        0,
+        0
+    ],
+    "Whimsicott": [
+        0,
+        0
+    ],
+    "Petilil": [
+        0,
+        0
+    ],
+    "Lilligant": [
+        0,
+        0
+    ],
+    "Basculin Red-Striped Form": [
+        0,
+        0
+    ],
+    "Basculin Blue-Striped Form": [
+        0,
+        0
+    ],
+    "Basculin White-Striped Form": [
+        0,
+        0
+    ],
+    "Sandile": [
+        0,
+        0
+    ],
+    "Krokorok": [
+        0,
+        0
+    ],
+    "Krookodile": [
+        0,
+        0
+    ],
+    "Darumaka": [
+        0,
+        0
+    ],
+    "Darmanitan": [
+        0,
+        0
+    ],
+    "Maractus": [
+        0,
+        0
+    ],
+    "Dwebble": [
+        0,
+        0
+    ],
+    "Crustle": [
+        0,
+        0
+    ],
+    "Scraggy": [
+        0,
+        0
+    ],
+    "Scrafty": [
+        0,
+        0
+    ],
+    "Sigilyph": [
+        0,
+        0
+    ],
+    "Yamask": [
+        0,
+        0
+    ],
+    "Cofagrigus": [
+        0,
+        0
+    ],
+    "Tirtouga": [
+        0,
+        0
+    ],
+    "Carracosta": [
+        0,
+        0
+    ],
+    "Archen": [
+        0,
+        0
+    ],
+    "Archeops": [
+        0,
+        0
+    ],
+    "Trubbish": [
+        0,
+        0
+    ],
+    "Garbodor": [
+        0,
+        0
+    ],
+    "Zorua": [
+        0,
+        0
+    ],
+    "Zoroark": [
+        0,
+        0
+    ],
+    "Minccino": [
+        0,
+        0
+    ],
+    "Cinccino": [
+        0,
+        0
+    ],
+    "Gothita": [
+        0,
+        0
+    ],
+    "Gothorita": [
+        0,
+        0
+    ],
+    "Gothitelle": [
+        0,
+        0
+    ],
+    "Solosis": [
+        0,
+        0
+    ],
+    "Duosion": [
+        0,
+        0
+    ],
+    "Reuniclus": [
+        0,
+        0
+    ],
+    "Ducklett": [
+        0,
+        0
+    ],
+    "Swanna": [
+        0,
+        0
+    ],
+    "Vanillite": [
+        0,
+        0
+    ],
+    "Vanillish": [
+        0,
+        0
+    ],
+    "Vanilluxe": [
+        0,
+        0
+    ],
+    "Deerling Spring Form": [
+        0,
+        0
+    ],
+    "Deerling Summer Form": [
+        0,
+        0
+    ],
+    "Deerling Autumn Form": [
+        0,
+        0
+    ],
+    "Deerling Winter Form": [
+        0,
+        0
+    ],
+    "Sawsbuck Spring Form": [
+        0,
+        0
+    ],
+    "Sawsbuck Summer Form": [
+        0,
+        0
+    ],
+    "Sawsbuck Autumn Form": [
+        0,
+        0
+    ],
+    "Sawsbuck Winter Form": [
+        0,
+        0
+    ],
+    "Emolga": [
+        0,
+        0
+    ],
+    "Karrablast": [
+        0,
+        0
+    ],
+    "Escavalier": [
+        0,
+        0
+    ],
+    "Foongus": [
+        0,
+        0
+    ],
+    "Amoonguss": [
+        0,
+        0
+    ],
+    "Frillish Male": [
+        0,
+        0
+    ],
+    "Frillish Female": [
+        0,
+        0
+    ],
+    "Jellicent Male": [
+        0,
+        0
+    ],
+    "Jellicent Female": [
+        0,
+        0
+    ],
+    "Alomomola": [
+        0,
+        0
+    ],
+    "Joltik": [
+        0,
+        0
+    ],
+    "Galvantula": [
+        0,
+        0
+    ],
+    "Ferroseed": [
+        0,
+        0
+    ],
+    "Ferrothorn": [
+        0,
+        0
+    ],
+    "Klink": [
+        0,
+        0
+    ],
+    "Klang": [
+        0,
+        0
+    ],
+    "Klinklang": [
+        0,
+        0
+    ],
+    "Tynamo": [
+        0,
+        0
+    ],
+    "Eelektrik": [
+        0,
+        0
+    ],
+    "Eelektross": [
+        0,
+        0
+    ],
+    "Elgyem": [
+        0,
+        0
+    ],
+    "Beheeyem": [
+        0,
+        0
+    ],
+    "Litwick": [
+        0,
+        0
+    ],
+    "Lampent": [
+        0,
+        0
+    ],
+    "Chandelure": [
+        0,
+        0
+    ],
+    "Axew": [
+        0,
+        0
+    ],
+    "Fraxure": [
+        0,
+        0
+    ],
+    "Haxorus": [
+        0,
+        0
+    ],
+    "Cubchoo": [
+        0,
+        0
+    ],
+    "Beartic": [
+        0,
+        0
+    ],
+    "Cryogonal": [
+        0,
+        0
+    ],
+    "Shelmet": [
+        0,
+        0
+    ],
+    "Accelgor": [
+        0,
+        0
+    ],
+    "Stunfisk": [
+        0,
+        0
+    ],
+    "Mienfoo": [
+        0,
+        0
+    ],
+    "Mienshao": [
+        0,
+        0
+    ],
+    "Druddigon": [
+        0,
+        0
+    ],
+    "Golett": [
+        0,
+        0
+    ],
+    "Golurk": [
+        0,
+        0
+    ],
+    "Pawniard": [
+        0,
+        0
+    ],
+    "Bisharp": [
+        0,
+        0
+    ],
+    "Bouffalant": [
+        0,
+        0
+    ],
+    "Rufflet": [
+        0,
+        0
+    ],
+    "Braviary": [
+        0,
+        0
+    ],
+    "Vullaby": [
+        0,
+        0
+    ],
+    "Mandibuzz": [
+        0,
+        0
+    ],
+    "Heatmor": [
+        0,
+        0
+    ],
+    "Durant": [
+        0,
+        0
+    ],
+    "Deino": [
+        0,
+        0
+    ],
+    "Zweilous": [
+        0,
+        0
+    ],
+    "Hydreigon": [
+        0,
+        0
+    ],
+    "Larvesta": [
+        0,
+        0
+    ],
+    "Volcarona": [
+        0,
+        0
+    ],
+    "Cobalion": [
+        0,
+        0
+    ],
+    "Terrakion": [
+        0,
+        0
+    ],
+    "Virizion": [
+        0,
+        0
+    ],
+    "Tornadus Incarnate Forme": [
+        0,
+        0
+    ],
+    "Tornadus Therian Forme": [
+        0,
+        0
+    ],
+    "Thundurus Incarnate Forme": [
+        0,
+        0
+    ],
+    "Thundurus Therian Forme": [
+        0,
+        0
+    ],
+    "Reshiram": [
+        0,
+        0
+    ],
+    "Zekrom": [
+        0,
+        0
+    ],
+    "Landorus Incarnate Forme": [
+        0,
+        0
+    ],
+    "Landorus Therian Forme": [
+        0,
+        0
+    ],
+    "Kyurem": [
+        0,
+        0
+    ],
+    "Keldeo Ordinary Form": [
+        0,
+        0
+    ],
+    "Keldeo Resolute Form": [
+        0,
+        0
+    ],
+    "Meloetta": [
+        0,
+        0
+    ],
+    "Genesect": [
+        0,
+        0
+    ],
+    "Chespin": [
+        0,
+        0
+    ],
+    "Quilladin": [
+        0,
+        0
+    ],
+    "Chesnaught": [
+        0,
+        0
+    ],
+    "Fennekin": [
+        0,
+        0
+    ],
+    "Braixen": [
+        0,
+        0
+    ],
+    "Delphox": [
+        0,
+        0
+    ],
+    "Froakie": [
+        0,
+        0
+    ],
+    "Frogadier": [
+        0,
+        0
+    ],
+    "Greninja": [
+        0,
+        0
+    ],
+    "Greninja Battle Bond": [
+        0,
+        0
+    ],
+    "Bunnelby": [
+        0,
+        0
+    ],
+    "Diggersby": [
+        0,
+        0
+    ],
+    "Fletchling": [
+        0,
+        0
+    ],
+    "Fletchinder": [
+        0,
+        0
+    ],
+    "Talonflame": [
+        0,
+        0
+    ],
+    "Scatterbug": [
+        0,
+        0
+    ],
+    "Spewpa": [
+        0,
+        0
+    ],
+    "Vivillon Icy Snow Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Polar Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Tundra Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Continental Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Garden Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Elegant Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Meadow Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Modern Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Marine Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Archipelago Pattern": [
+        0,
+        0
+    ],
+    "Vivillon High Plains Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Sandstorm Pattern": [
+        0,
+        0
+    ],
+    "Vivillon River Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Monsoon Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Savanna Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Sun Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Ocean Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Jungle Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Fancy Pattern": [
+        0,
+        0
+    ],
+    "Vivillon Poke Ball Pattern": [
+        0,
+        0
+    ],
+    "Litleo": [
+        0,
+        0
+    ],
+    "Pyroar Male": [
+        0,
+        0
+    ],
+    "Pyroar Female": [
+        0,
+        0
+    ],
+    "Flabebe Red Flower": [
+        0,
+        0
+    ],
+    "Flabebe Yellow Flower": [
+        0,
+        0
+    ],
+    "Flabebe Orange Flower": [
+        0,
+        0
+    ],
+    "Flabebe Blue Flower": [
+        0,
+        0
+    ],
+    "Flabebe White Flower": [
+        0,
+        0
+    ],
+    "Floette Red Flower": [
+        0,
+        0
+    ],
+    "Floette Yellow Flower": [
+        0,
+        0
+    ],
+    "Floette Orange Flower": [
+        0,
+        0
+    ],
+    "Floette Blue Flower": [
+        0,
+        0
+    ],
+    "Floette White Flower": [
+        0,
+        0
+    ],
+    "Floette Eternal Flower": [
+        0,
+        0
+    ],
+    "Florges Red Flower": [
+        0,
+        0
+    ],
+    "Florges Yellow Flower": [
+        0,
+        0
+    ],
+    "Florges Orange Flower": [
+        0,
+        0
+    ],
+    "Florges Blue Flower": [
+        0,
+        0
+    ],
+    "Florges White Flower": [
+        0,
+        0
+    ],
+    "Skiddo": [
+        0,
+        0
+    ],
+    "Gogoat": [
+        0,
+        0
+    ],
+    "Pancham": [
+        0,
+        0
+    ],
+    "Pangoro": [
+        0,
+        0
+    ],
+    "Furfrou Natural Form": [
+        0,
+        0
+    ],
+    "Furfrou Heart Form": [
+        0,
+        0
+    ],
+    "Furfrou Star Form": [
+        0,
+        0
+    ],
+    "Furfrou Diamond Form": [
+        0,
+        0
+    ],
+    "Furfrou Debutante Form": [
+        0,
+        0
+    ],
+    "Furfrou Matron Form": [
+        0,
+        0
+    ],
+    "Furfrou Dandy Form": [
+        0,
+        0
+    ],
+    "Furfrou La Reine Form": [
+        0,
+        0
+    ],
+    "Furfrou Kabuki Form": [
+        0,
+        0
+    ],
+    "Furfrou Pharaoh Form": [
+        0,
+        0
+    ],
+    "Espurr": [
+        0,
+        0
+    ],
+    "Meowstic Male": [
+        0,
+        0
+    ],
+    "Meowstic Female": [
+        0,
+        0
+    ],
+    "Honedge": [
+        0,
+        0
+    ],
+    "Doublade": [
+        0,
+        0
+    ],
+    "Aegislash": [
+        0,
+        0
+    ],
+    "Spritzee": [
+        0,
+        0
+    ],
+    "Aromatisse": [
+        0,
+        0
+    ],
+    "Swirlix": [
+        0,
+        0
+    ],
+    "Slurpuff": [
+        0,
+        0
+    ],
+    "Inkay": [
+        0,
+        0
+    ],
+    "Malamar": [
+        0,
+        0
+    ],
+    "Binacle": [
+        0,
+        0
+    ],
+    "Barbaracle": [
+        0,
+        0
+    ],
+    "Skrelp": [
+        0,
+        0
+    ],
+    "Dragalge": [
+        0,
+        0
+    ],
+    "Clauncher": [
+        0,
+        0
+    ],
+    "Clawitzer": [
+        0,
+        0
+    ],
+    "Helioptile": [
+        0,
+        0
+    ],
+    "Heliolisk": [
+        0,
+        0
+    ],
+    "Tyrunt": [
+        0,
+        0
+    ],
+    "Tyrantrum": [
+        0,
+        0
+    ],
+    "Amaura": [
+        0,
+        0
+    ],
+    "Aurorus": [
+        0,
+        0
+    ],
+    "Sylveon": [
+        0,
+        0
+    ],
+    "Hawlucha": [
+        0,
+        0
+    ],
+    "Dedenne": [
+        0,
+        0
+    ],
+    "Carbink": [
+        0,
+        0
+    ],
+    "Goomy": [
+        0,
+        0
+    ],
+    "Sliggoo": [
+        0,
+        0
+    ],
+    "Goodra": [
+        0,
+        0
+    ],
+    "Klefki": [
+        0,
+        0
+    ],
+    "Phantump": [
+        0,
+        0
+    ],
+    "Trevenant": [
+        0,
+        0
+    ],
+    "Pumpkaboo Small Variety": [
+        0,
+        0
+    ],
+    "Pumpkaboo Medium Variety": [
+        0,
+        0
+    ],
+    "Pumpkaboo Large Variety": [
+        0,
+        0
+    ],
+    "Pumpkaboo Jumbo Variety": [
+        0,
+        0
+    ],
+    "Gourgeist Small Variety": [
+        0,
+        0
+    ],
+    "Gourgeist Medium Variety": [
+        0,
+        0
+    ],
+    "Gourgeist Large Variety": [
+        0,
+        0
+    ],
+    "Gourgeist Jumbo Variety": [
+        0,
+        0
+    ],
+    "Bergmite": [
+        0,
+        0
+    ],
+    "Avalugg": [
+        0,
+        0
+    ],
+    "Noibat": [
+        0,
+        0
+    ],
+    "Noivern": [
+        0,
+        0
+    ],
+    "Xerneas": [
+        0,
+        0
+    ],
+    "Yveltal": [
+        0,
+        0
+    ],
+    "Zygarde 10% Forme Aura Break": [
+        0,
+        0
+    ],
+    "Zygarde 10% Forme Power Construct": [
+        0,
+        0
+    ],
+    "Zygarde 50% Forme Aura Break": [
+        0,
+        0
+    ],
+    "Zygarde 50% Forme Power Construct": [
+        0,
+        0
+    ],
+    "Diancie": [
+        0,
+        0
+    ],
+    "Hoopa Confined": [
+        0,
+        0
+    ],
+    "Hoopa Unbound": [
+        0,
+        0
+    ],
+    "Volcanion": [
+        0,
+        0
+    ],
+    "Rowlet": [
+        0,
+        0
+    ],
+    "Dartrix": [
+        0,
+        0
+    ],
+    "Decidueye": [
+        0,
+        0
+    ],
+    "Litten": [
+        0,
+        0
+    ],
+    "Torracat": [
+        0,
+        0
+    ],
+    "Incineroar": [
+        0,
+        0
+    ],
+    "Popplio": [
+        0,
+        0
+    ],
+    "Brionne": [
+        0,
+        0
+    ],
+    "Primarina": [
+        0,
+        0
+    ],
+    "Pikipek": [
+        0,
+        0
+    ],
+    "Trumbeak": [
+        0,
+        0
+    ],
+    "Toucannon": [
+        0,
+        0
+    ],
+    "Yungoos": [
+        0,
+        0
+    ],
+    "Gumshoos": [
+        0,
+        0
+    ],
+    "Grubbin": [
+        0,
+        0
+    ],
+    "Charjabug": [
+        0,
+        0
+    ],
+    "Vikavolt": [
+        0,
+        0
+    ],
+    "Crabrawler": [
+        0,
+        0
+    ],
+    "Crabominable": [
+        0,
+        0
+    ],
+    "Oricorio Baile Style": [
+        0,
+        0
+    ],
+    "Oricorio Pom-Pom Style": [
+        0,
+        0
+    ],
+    "Oricorio Pa'u Style": [
+        0,
+        0
+    ],
+    "Oricorio Sensu Style": [
+        0,
+        0
+    ],
+    "Cutiefly": [
+        0,
+        0
+    ],
+    "Ribombee": [
+        0,
+        0
+    ],
+    "Rockruff": [
+        0,
+        0
+    ],
+    "Rockruff Own Tempo": [
+        0,
+        0
+    ],
+    "Lycanroc Midday Form": [
+        0,
+        0
+    ],
+    "Lycanroc Midnight Form": [
+        0,
+        0
+    ],
+    "Lycanroc Dusk Form": [
+        0,
+        0
+    ],
+    "Wishiwashi": [
+        0,
+        0
+    ],
+    "Mareanie": [
+        0,
+        0
+    ],
+    "Toxapex": [
+        0,
+        0
+    ],
+    "Mudbray": [
+        0,
+        0
+    ],
+    "Mudsdale": [
+        0,
+        0
+    ],
+    "Dewpider": [
+        0,
+        0
+    ],
+    "Araquanid": [
+        0,
+        0
+    ],
+    "Fomantis": [
+        0,
+        0
+    ],
+    "Lurantis": [
+        0,
+        0
+    ],
+    "Morelull": [
+        0,
+        0
+    ],
+    "Shiinotic": [
+        0,
+        0
+    ],
+    "Salandit": [
+        0,
+        0
+    ],
+    "Salazzle": [
+        0,
+        0
+    ],
+    "Stufful": [
+        0,
+        0
+    ],
+    "Bewear": [
+        0,
+        0
+    ],
+    "Bounsweet": [
+        0,
+        0
+    ],
+    "Steenee": [
+        0,
+        0
+    ],
+    "Tsareena": [
+        0,
+        0
+    ],
+    "Comfey": [
+        0,
+        0
+    ],
+    "Oranguru": [
+        0,
+        0
+    ],
+    "Passimian": [
+        0,
+        0
+    ],
+    "Wimpod": [
+        0,
+        0
+    ],
+    "Golisopod": [
+        0,
+        0
+    ],
+    "Sandygast": [
+        0,
+        0
+    ],
+    "Palossand": [
+        0,
+        0
+    ],
+    "Pyukumuku": [
+        0,
+        0
+    ],
+    "Type: Null": [
+        0,
+        0
+    ],
+    "Silvally": [
+        0,
+        0
+    ],
+    "Minior Red Core": [
+        0,
+        0
+    ],
+    "Minior Orange Core": [
+        0,
+        0
+    ],
+    "Minior Yellow Core": [
+        0,
+        0
+    ],
+    "Minior Green Core": [
+        0,
+        0
+    ],
+    "Minior Blue Core": [
+        0,
+        0
+    ],
+    "Minior Indigo Core": [
+        0,
+        0
+    ],
+    "Minior Violet Core": [
+        0,
+        0
+    ],
+    "Komala": [
+        0,
+        0
+    ],
+    "Turtonator": [
+        0,
+        0
+    ],
+    "Togedemaru": [
+        0,
+        0
+    ],
+    "Mimikyu": [
+        0,
+        0
+    ],
+    "Bruxish": [
+        0,
+        0
+    ],
+    "Drampa": [
+        0,
+        0
+    ],
+    "Dhelmise": [
+        0,
+        0
+    ],
+    "Jangmo-o": [
+        0,
+        0
+    ],
+    "Hakamo-o": [
+        0,
+        0
+    ],
+    "Kommo-o": [
+        0,
+        0
+    ],
+    "Tapu Koko": [
+        0,
+        0
+    ],
+    "Tapu Lele": [
+        0,
+        0
+    ],
+    "Tapu Bulu": [
+        0,
+        0
+    ],
+    "Tapu Fini": [
+        0,
+        0
+    ],
+    "Cosmog": [
+        0,
+        0
+    ],
+    "Cosmoem": [
+        0,
+        0
+    ],
+    "Solgaleo": [
+        0,
+        0
+    ],
+    "Lunala": [
+        0,
+        0
+    ],
+    "Nihilego": [
+        0,
+        0
+    ],
+    "Buzzwole": [
+        0,
+        0
+    ],
+    "Pheromosa": [
+        0,
+        0
+    ],
+    "Xurkitree": [
+        0,
+        0
+    ],
+    "Celesteela": [
+        0,
+        0
+    ],
+    "Kartana": [
+        0,
+        0
+    ],
+    "Guzzlord": [
+        0,
+        0
+    ],
+    "Necrozma": [
+        0,
+        0
+    ],
+    "Magearna": [
+        0,
+        0
+    ],
+    "Magearna Original Color": [
+        0,
+        0
+    ],
+    "Marshadow": [
+        0,
+        0
+    ],
+    "Poipole": [
+        0,
+        0
+    ],
+    "Naganadel": [
+        0,
+        0
+    ],
+    "Stakataka": [
+        0,
+        0
+    ],
+    "Blacephalon": [
+        0,
+        0
+    ],
+    "Zeraora": [
+        0,
+        0
+    ],
+    "Meltan": [
+        0,
+        0
+    ],
+    "Melmetal": [
+        0,
+        0
+    ],
+    "Grookey": [
+        0,
+        0
+    ],
+    "Thwackey": [
+        0,
+        0
+    ],
+    "Rillaboom": [
+        0,
+        0
+    ],
+    "Scorbunny": [
+        0,
+        0
+    ],
+    "Raboot": [
+        0,
+        0
+    ],
+    "Cinderace": [
+        0,
+        0
+    ],
+    "Sobble": [
+        0,
+        0
+    ],
+    "Drizzile": [
+        0,
+        0
+    ],
+    "Inteleon": [
+        0,
+        0
+    ],
+    "Skwovet": [
+        0,
+        0
+    ],
+    "Greedent": [
+        0,
+        0
+    ],
+    "Rookidee": [
+        0,
+        0
+    ],
+    "Corvisquire": [
+        0,
+        0
+    ],
+    "Corviknight": [
+        0,
+        0
+    ],
+    "Blipbug": [
+        0,
+        0
+    ],
+    "Dottler": [
+        0,
+        0
+    ],
+    "Orbeetle": [
+        0,
+        0
+    ],
+    "Nickit": [
+        0,
+        0
+    ],
+    "Thievul": [
+        0,
+        0
+    ],
+    "Gossifleur": [
+        0,
+        0
+    ],
+    "Eldegoss": [
+        0,
+        0
+    ],
+    "Wooloo": [
+        0,
+        0
+    ],
+    "Dubwool": [
+        0,
+        0
+    ],
+    "Chewtle": [
+        0,
+        0
+    ],
+    "Drednaw": [
+        0,
+        0
+    ],
+    "Yamper": [
+        0,
+        0
+    ],
+    "Boltund": [
+        0,
+        0
+    ],
+    "Rolycoly": [
+        0,
+        0
+    ],
+    "Carkol": [
+        0,
+        0
+    ],
+    "Coalossal": [
+        0,
+        0
+    ],
+    "Applin": [
+        0,
+        0
+    ],
+    "Flapple": [
+        0,
+        0
+    ],
+    "Appletun": [
+        0,
+        0
+    ],
+    "Silicobra": [
+        0,
+        0
+    ],
+    "Sandaconda": [
+        0,
+        0
+    ],
+    "Cramorant": [
+        0,
+        0
+    ],
+    "Arrokuda": [
+        0,
+        0
+    ],
+    "Barraskewda": [
+        0,
+        0
+    ],
+    "Toxel": [
+        0,
+        0
+    ],
+    "Toxtricity Amped Form": [
+        0,
+        0
+    ],
+    "Toxtricity Low Key Form": [
+        0,
+        0
+    ],
+    "Sizzlipede": [
+        0,
+        0
+    ],
+    "Centiskorch": [
+        0,
+        0
+    ],
+    "Clobbopus": [
+        0,
+        0
+    ],
+    "Grapploct": [
+        0,
+        0
+    ],
+    "Sinistea Phony Form": [
+        0,
+        0
+    ],
+    "Sinistea Antique Form": [
+        0,
+        0
+    ],
+    "Polteageist Phony Form": [
+        0,
+        0
+    ],
+    "Polteageist Antique Form": [
+        0,
+        0
+    ],
+    "Hatenna": [
+        0,
+        0
+    ],
+    "Hattrem": [
+        0,
+        0
+    ],
+    "Hatterene": [
+        0,
+        0
+    ],
+    "Impidimp": [
+        0,
+        0
+    ],
+    "Morgrem": [
+        0,
+        0
+    ],
+    "Grimmsnarl": [
+        0,
+        0
+    ],
+    "Obstagoon": [
+        0,
+        0
+    ],
+    "Perrserker": [
+        0,
+        0
+    ],
+    "Cursola": [
+        0,
+        0
+    ],
+    "Sirfetch'd": [
+        0,
+        0
+    ],
+    "Mr. Rime": [
+        0,
+        0
+    ],
+    "Runerigus": [
+        0,
+        0
+    ],
+    "Milcery": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Strawberry Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Berry Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Love Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Star Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Clover Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Flower Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Vanilla Cream": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Ruby Cream": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Matcha Cream": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Mint Cream": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Lemon Cream": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Salted Cream": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Ruby Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Caramel Swirl": [
+        0,
+        0
+    ],
+    "Alcremie Ribbon Sweet Rainbow Swirl": [
+        0,
+        0
+    ],
+    "Falinks": [
+        0,
+        0
+    ],
+    "Pincurchin": [
+        0,
+        0
+    ],
+    "Snom": [
+        0,
+        0
+    ],
+    "Frosmoth": [
+        0,
+        0
+    ],
+    "Stonjourner": [
+        0,
+        0
+    ],
+    "Eiscue": [
+        0,
+        0
+    ],
+    "Indeedee Male": [
+        0,
+        0
+    ],
+    "Indeedee Female": [
+        0,
+        0
+    ],
+    "Morpeko": [
+        0,
+        0
+    ],
+    "Cufant": [
+        0,
+        0
+    ],
+    "Copperajah": [
+        0,
+        0
+    ],
+    "Dracozolt": [
+        0,
+        0
+    ],
+    "Arctozolt": [
+        0,
+        0
+    ],
+    "Dracovish": [
+        0,
+        0
+    ],
+    "Arctovish": [
+        0,
+        0
+    ],
+    "Duraludon": [
+        0,
+        0
+    ],
+    "Dreepy": [
+        0,
+        0
+    ],
+    "Drakloak": [
+        0,
+        0
+    ],
+    "Dragapult": [
+        0,
+        0
+    ],
+    "Zacian": [
+        0,
+        0
+    ],
+    "Zamazenta": [
+        0,
+        0
+    ],
+    "Eternatus": [
+        0,
+        0
+    ],
+    "Kubfu": [
+        0,
+        0
+    ],
+    "Urshifu Single Strike Style": [
+        0,
+        0
+    ],
+    "Urshifu Rapid Strike Style": [
+        0,
+        0
+    ],
+    "Zarude": [
+        0,
+        0
+    ],
+    "Zarude Dada": [
+        0,
+        0
+    ],
+    "Regieleki": [
+        0,
+        0
+    ],
+    "Regidrago": [
+        0,
+        0
+    ],
+    "Glastrier": [
+        0,
+        0
+    ],
+    "Spectrier": [
+        0,
+        0
+    ],
+    "Calyrex": [
+        0,
+        0
+    ],
+    "Wyrdeer": [
+        0,
+        0
+    ],
+    "Kleavor": [
+        0,
+        0
+    ],
+    "Ursaluna": [
+        0,
+        0
+    ],
+    "Ursaluna Bloodmoon": [
+        0,
+        0
+    ],
+    "Basculegion Male": [
+        0,
+        0
+    ],
+    "Basculegion Female": [
+        0,
+        0
+    ],
+    "Sneasler": [
+        0,
+        0
+    ],
+    "Overqwil": [
+        0,
+        0
+    ],
+    "Enamorus Incarnate Form": [
+        0,
+        0
+    ],
+    "Enamorus Therian Form": [
+        0,
+        0
+    ],
+    "Sprigatito": [
+        0,
+        0
+    ],
+    "Floragato": [
+        0,
+        0
+    ],
+    "Meowscarada": [
+        0,
+        0
+    ],
+    "Fuecoco": [
+        0,
+        0
+    ],
+    "Crocalor": [
+        0,
+        0
+    ],
+    "Skeledirge": [
+        0,
+        0
+    ],
+    "Quaxly": [
+        0,
+        0
+    ],
+    "Quaxwell": [
+        0,
+        0
+    ],
+    "Quaquaval": [
+        0,
+        0
+    ],
+    "Lechonk": [
+        0,
+        0
+    ],
+    "Oinkologne Male": [
+        0,
+        0
+    ],
+    "Oinkologne Female": [
+        0,
+        0
+    ],
+    "Tarountula": [
+        0,
+        0
+    ],
+    "Spidops": [
+        0,
+        0
+    ],
+    "Nymble": [
+        0,
+        0
+    ],
+    "Lokix": [
+        0,
+        0
+    ],
+    "Pawmi": [
+        0,
+        0
+    ],
+    "Pawmo": [
+        0,
+        0
+    ],
+    "Pawmot": [
+        0,
+        0
+    ],
+    "Tandemaus": [
+        0,
+        0
+    ],
+    "Maushold Family of Four": [
+        0,
+        0
+    ],
+    "Maushold Family of Three": [
+        0,
+        0
+    ],
+    "Fidough": [
+        0,
+        0
+    ],
+    "Dachsbun": [
+        0,
+        0
+    ],
+    "Smoliv": [
+        0,
+        0
+    ],
+    "Dolliv": [
+        0,
+        0
+    ],
+    "Arboliva": [
+        0,
+        0
+    ],
+    "Squawkabilly Green Plumage": [
+        0,
+        0
+    ],
+    "Squawkabilly Blue Plumage": [
+        0,
+        0
+    ],
+    "Squawkabilly Yellow Plumage": [
+        0,
+        0
+    ],
+    "Squawkabilly White Plumage": [
+        0,
+        0
+    ],
+    "Nacli": [
+        0,
+        0
+    ],
+    "Naclstack": [
+        0,
+        0
+    ],
+    "Garganacl": [
+        0,
+        0
+    ],
+    "Charcadet": [
+        0,
+        0
+    ],
+    "Armarouge": [
+        0,
+        0
+    ],
+    "Ceruledge": [
+        0,
+        0
+    ],
+    "Tadbulb": [
+        0,
+        0
+    ],
+    "Bellibolt": [
+        0,
+        0
+    ],
+    "Wattrel": [
+        0,
+        0
+    ],
+    "Kilowattrel": [
+        0,
+        0
+    ],
+    "Maschiff": [
+        0,
+        0
+    ],
+    "Mabosstiff": [
+        0,
+        0
+    ],
+    "Shroodle": [
+        0,
+        0
+    ],
+    "Grafaiai": [
+        0,
+        0
+    ],
+    "Bramblin": [
+        0,
+        0
+    ],
+    "Brambleghast": [
+        0,
+        0
+    ],
+    "Toedscool": [
+        0,
+        0
+    ],
+    "Toedscruel": [
+        0,
+        0
+    ],
+    "Klawf": [
+        0,
+        0
+    ],
+    "Capsakid": [
+        0,
+        0
+    ],
+    "Scovillain": [
+        0,
+        0
+    ],
+    "Rellor": [
+        0,
+        0
+    ],
+    "Rabsca": [
+        0,
+        0
+    ],
+    "Flittle": [
+        0,
+        0
+    ],
+    "Espathra": [
+        0,
+        0
+    ],
+    "Tinkatink": [
+        0,
+        0
+    ],
+    "Tinkatuff": [
+        0,
+        0
+    ],
+    "Tinkaton": [
+        0,
+        0
+    ],
+    "Wiglett": [
+        0,
+        0
+    ],
+    "Wugtrio": [
+        0,
+        0
+    ],
+    "Bombirdier": [
+        0,
+        0
+    ],
+    "Finizen": [
+        0,
+        0
+    ],
+    "Palafin": [
+        0,
+        0
+    ],
+    "Varoom": [
+        0,
+        0
+    ],
+    "Revavroom": [
+        0,
+        0
+    ],
+    "Cyclizar": [
+        0,
+        0
+    ],
+    "Orthworm": [
+        0,
+        0
+    ],
+    "Glimmet": [
+        0,
+        0
+    ],
+    "Glimmora": [
+        0,
+        0
+    ],
+    "Greavard": [
+        0,
+        0
+    ],
+    "Houndstone": [
+        0,
+        0
+    ],
+    "Flamigo": [
+        0,
+        0
+    ],
+    "Cetoddle": [
+        0,
+        0
+    ],
+    "Cetitan": [
+        0,
+        0
+    ],
+    "Veluza": [
+        0,
+        0
+    ],
+    "Dondozo": [
+        0,
+        0
+    ],
+    "Tatsugiri Curly Form": [
+        0,
+        0
+    ],
+    "Tatsugiri Droopy Form": [
+        0,
+        0
+    ],
+    "Tatsugiri Stretchy Form": [
+        0,
+        0
+    ],
+    "Annihilape": [
+        0,
+        0
+    ],
+    "Clodsire": [
+        0,
+        0
+    ],
+    "Farigiraf": [
+        0,
+        0
+    ],
+    "Dudunsparce Two-Segment Form": [
+        0,
+        0
+    ],
+    "Dudunsparce Three-Segment Form": [
+        0,
+        0
+    ],
+    "Kingambit": [
+        0,
+        0
+    ],
+    "Great Tusk": [
+        0,
+        0
+    ],
+    "Scream Tail": [
+        0,
+        0
+    ],
+    "Brute Bonnet": [
+        0,
+        0
+    ],
+    "Flutter Mane": [
+        0,
+        0
+    ],
+    "Slither Wing": [
+        0,
+        0
+    ],
+    "Sandy Shocks": [
+        0,
+        0
+    ],
+    "Iron Treads": [
+        0,
+        0
+    ],
+    "Iron Bundle": [
+        0,
+        0
+    ],
+    "Iron Hands": [
+        0,
+        0
+    ],
+    "Iron Jugulis": [
+        0,
+        0
+    ],
+    "Iron Moth": [
+        0,
+        0
+    ],
+    "Iron Thorns": [
+        0,
+        0
+    ],
+    "Frigibax": [
+        0,
+        0
+    ],
+    "Arctibax": [
+        0,
+        0
+    ],
+    "Baxcalibur": [
+        0,
+        0
+    ],
+    "Gimmighoul Chest Form": [
+        0,
+        0
+    ],
+    "Gimmighoul Roaming Form": [
+        0,
+        0
+    ],
+    "Gholdengo": [
+        0,
+        0
+    ],
+    "Wo-Chien": [
+        0,
+        0
+    ],
+    "Chien-Pao": [
+        0,
+        0
+    ],
+    "Ting-Lu": [
+        0,
+        0
+    ],
+    "Chi-Yu": [
+        0,
+        0
+    ],
+    "Roaring Moon": [
+        0,
+        0
+    ],
+    "Iron Valiant": [
+        0,
+        0
+    ],
+    "Koraidon": [
+        0,
+        0
+    ],
+    "Miraidon": [
+        0,
+        0
+    ],
+    "Walking Wake": [
+        0,
+        0
+    ],
+    "Iron Leaves": [
+        0,
+        0
+    ],
+    "Dipplin": [
+        0,
+        0
+    ],
+    "Poltchageist Counterfeit Form": [
+        0,
+        0
+    ],
+    "Poltchageist Artisan Form": [
+        0,
+        0
+    ],
+    "Sinistcha Counterfeit Form": [
+        0,
+        0
+    ],
+    "Sinistcha Artisan Form": [
+        0,
+        0
+    ],
+    "Okidogi": [
+        0,
+        0
+    ],
+    "Munkidori": [
+        0,
+        0
+    ],
+    "Fezandipiti": [
+        0,
+        0
+    ],
+    "Ogerpon": [
+        0,
+        0
+    ],
+    "Archaludon": [
+        0,
+        0
+    ],
+    "Hydrapple": [
+        0,
+        0
+    ],
+    "Gouging Fire": [
+        0,
+        0
+    ],
+    "Raging Bolt": [
+        0,
+        0
+    ],
+    "Iron Boulder": [
+        0,
+        0
+    ],
+    "Iron Crown": [
+        0,
+        0
+    ],
+    "Terapagos": [
+        0,
+        0
+    ],
+    "Pecharunt": [
+        0,
+        0
+    ]
 }

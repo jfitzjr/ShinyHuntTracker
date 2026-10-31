@@ -11,6 +11,8 @@ CROSS_AXIS_CENTER = ft.CrossAxisAlignment.CENTER
 CENTER = ft.Alignment.CENTER
 BOTTOM_LEFT = ft.Alignment.BOTTOM_LEFT
 BOTTOM_RIGHT = ft.Alignment.BOTTOM_RIGHT
+SRCOUNT = 0
+SRTIME = 1
 
 DUPLICATE_SPRITE_DIC = {
     f"Zygarde 10% Forme Aura Break": "zygarde 10",
@@ -97,26 +99,33 @@ def main(page: ft.Page):
     probabilityString = "1/4096"
     count = 0
     binomial = "0%"
-    time = 0
+    totalTime = 0
+    play = False
+    timerTask = None
 
     activeHuntText = ft.Text(activeHunt, size=24)
     countText = ft.Text(str(count), size=150)
     binomialText = ft.Text(binomial, size=24)
     probabilityText = ft.Text(probabilityString, size=24)
     spriteContent = ft.Image(src="sprites/bulbasaur.webp", scale=1.2)
-    timeText = ft.Text(f"00:00:00")
 
     def update():
-        nonlocal count
+        nonlocal count, totalTime
         global DUPLICATE_SPRITE_DIC
 
         try:
-            count = pokemonDictionary[activeHunt]
+            count = pokemonDictionary[activeHunt][SRCOUNT]
+            totalTime = pokemonDictionary[activeHunt][SRTIME]
         except KeyError:
             raise Exception(f"Couldn't find Pokémon named {activeHunt}.")
 
         countText.value = str(count)
         updateBinomial()
+
+        minutes, seconds = divmod(totalTime, 60)
+        hours, minutes = divmod(minutes, 60)
+        playButton.content.value = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+        playButton.update()
 
         # Flet takes up so much space so instead of a file per Pokemon,
         # these handle image overlaps
@@ -151,8 +160,7 @@ def main(page: ft.Page):
         page.update()
 
     def updateBinomial():
-        nonlocal count
-        nonlocal binomial
+        nonlocal count, binomial
 
         if count == 0:
             binomial = "0%"
@@ -164,13 +172,13 @@ def main(page: ft.Page):
         binomialText.update()
 
     def save():
-        nonlocal count
-        nonlocal activeHunt
+        nonlocal count, activeHunt
 
-        pokemonDictionary[activeHunt] = count
+        pokemonDictionary[activeHunt] = [count, totalTime]
         with open(savePath, 'w', encoding='utf-8') as saveFile:
             saveFile.write(
-                json.dumps(pokemonDictionary, indent=4, ensure_ascii=False))
+                json.dumps(
+                    pokemonDictionary, indent=4, ensure_ascii=False))
 
     def closeWindow(e: ft.WindowEventType):
         save()
@@ -179,44 +187,71 @@ def main(page: ft.Page):
     page.window.on_event = closeWindow
 
     def closeApp(e: ft.AppLifecycleStateChangeEvent):
-        if e.state in [ft.AppLifecycleState.PAUSE, ft.AppLifecycleState.HIDE, ft.AppLifecycleState.DETACH]:
+        if e.state in [
+            ft.AppLifecycleState.PAUSE,
+            ft.AppLifecycleState.HIDE,
+            ft.AppLifecycleState.DETACH
+            ]:
+
             save()
 
     page.on_app_lifecycle_state_change = closeApp
 
     def add(e):
-        nonlocal count
-        nonlocal binomial
+        nonlocal count, binomial
 
         count += 1
-        pokemonDictionary[activeHunt] = count
+        pokemonDictionary[activeHunt][SRCOUNT] = count
         countText.value = str(count)
         countText.update()
 
         updateBinomial()
 
     def subtract(e):
-        nonlocal count
-        nonlocal binomial
+        nonlocal count, binomial
         
         if count > 0:
             count -= 1
-            pokemonDictionary[activeHunt] = count
+            pokemonDictionary[activeHunt][SRCOUNT] = count
             countText.value = str(count)
             countText.update()
 
         updateBinomial()
 
+    def updateTime():
+        nonlocal totalTime
+
+        minutes, seconds = divmod(totalTime, 60)
+        hours, minutes = divmod(minutes, 60)
+        timeString = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+        playButton.content.value = timeString
+        playButton.update()
+
+    async def stopWatch():
+        nonlocal totalTime, play
+
+        while play:
+            await asyncio.sleep(1)
+            if not play:
+                break
+            totalTime += 1
+            updateTime()
+
     def playPause(e):
-        pass
+        nonlocal play, timerTask
+
+        play = not play
+        if play:
+            timerTask = page.run_task(stopWatch)
+        else:
+            pass
 
     def keyAdd(e: ft.KeyboardEvent):
         if e.key == softResetKey:
             add(e)
 
     def itemClick(e):
-        nonlocal activeHunt
-        nonlocal activeTile
+        nonlocal activeHunt, activeTile
 
         save()
         oldPokemon = activeHunt
@@ -228,7 +263,6 @@ def main(page: ft.Page):
         e.control.selected = True
         activeTile = e.control
         update()
-
 
     page.on_keyboard_event = keyAdd
 
@@ -245,7 +279,7 @@ def main(page: ft.Page):
             new_count = int(countInput.value)
             if new_count >= 0:
                 count = new_count
-                pokemonDictionary[activeHunt] = count
+                pokemonDictionary[activeHunt][SRCOUNT] = count
                 countText.value = str(count)
                 updateBinomial()
                 save()
@@ -266,13 +300,14 @@ def main(page: ft.Page):
                 isActive = (key == activeHunt)
 
                 tile = ft.ListTile(
-                        title=ft.Text(
-                            f"{key} - {pokemonDictionary.get(key, 0)}",
-                            size=20),
-                        data=key,
-                        selected=isActive,
-                        on_click=itemClick,
-                    )
+                    title=ft.Text(
+                        f"{key} - {
+                            pokemonDictionary.get(key, 0)[SRCOUNT]}",
+                        size=20),
+                    data=key,
+                    selected=isActive,
+                    on_click=itemClick,
+                )
 
                 pokemonList.controls.append(tile)
 
@@ -378,6 +413,12 @@ def main(page: ft.Page):
         height=60
     )
 
+    playButton = ft.TextButton(
+        content=ft.Text("00:00:00", size=24),
+        on_click=lambda e: playPause(e),
+        offset=ft.Offset(0.1)
+    )
+
     pokemonList = ft.ListView(
         spacing=10,
         padding=20,
@@ -389,7 +430,7 @@ def main(page: ft.Page):
         save()
         if e.control.selected_index == 1 and activeTile:
             activeTile.title = ft.Text(
-                f"{activeHunt} - {pokemonDictionary.get(activeHunt, 0)}", 
+                f"{activeHunt} - {pokemonDictionary.get(activeHunt[SRCOUNT], 0)}", 
                 size=20
             )
             activeTile.update()
@@ -482,14 +523,7 @@ def main(page: ft.Page):
                                                         expand=1,
                                                         alignment=BOTTOM_LEFT
                                                     ),
-                                                    ft.Container(
-                                                        content=ft.Text(
-                                                            "00:00:00",
-                                                            size=24
-                                                        ),
-                                                        expand=1,
-                                                        alignment=BOTTOM_RIGHT
-                                                    )
+                                                    playButton
                                                 ]
                                             ),
 
