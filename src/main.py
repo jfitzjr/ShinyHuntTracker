@@ -4,12 +4,46 @@ import json
 import os
 import shutil
 from fractions import Fraction
+import asyncio
 
 AXIS_CENTER = ft.MainAxisAlignment.CENTER
 CROSS_AXIS_CENTER = ft.CrossAxisAlignment.CENTER
 CENTER = ft.Alignment.CENTER
 BOTTOM_LEFT = ft.Alignment.BOTTOM_LEFT
 BOTTOM_RIGHT = ft.Alignment.BOTTOM_RIGHT
+
+DUPLICATE_SPRITE_DIC = {
+    f"Zygarde 10% Forme Aura Break": "zygarde 10",
+    f"Zygarde 10% Forme Power Construct": "zygarde 10",
+    f"Zygarde 50% Forme Aura Break": "zygarde 50",
+    f"Zygarde 50% Forme Power Construct": "zygarde 50",
+    "Rockruff Own Tempo": "rockruff",
+    "Sinistea Phony Form": "sinistea",
+    "Sinistea Antique Form": "sinistea",
+    "Polteageist Phony Form": "polteageist",
+    "Polteageist Antique Form": "polteageist",
+    "Poltchageist Counterfeit Form": "poltchageist",
+    "Poltchageist Artisan Form": "poltchageist",
+    "Sinistcha Counterfeit Form": "sinistcha",
+    "Sinistcha Artisan Form": "sinistcha",
+    "Minior Red Core": "minior",
+    "Minior Orange Core": "minior",
+    "Minior Yellow Core": "minior",
+    "Minior Green Core": "minior",
+    "Minior Blue Core": "minior",
+    "Minior Indigo Core": "minior",
+    "Minior Violet Core": "minior",
+    "Torchic Male": "torchic",
+    "Torchic Female": "torchic",
+    "Quagsire Male": "quagsire",
+    "Quagsire Female": "quagsire",
+    "Bidoof Male": "bidoof",
+    "Bidoof Female": "bidoof",
+    "Buizel Male": "buizel",
+    "Buizel Female": "buizel",
+    "Floatzel Male": "floatzel",
+    "Floatzel Female": "floatzel"
+}
 
 compiledPath = os.getenv("FLET_APP_STORAGE_DATA")
 
@@ -29,6 +63,7 @@ if compiledPath:
         except Exception:
             raise Exception(
                 "CountSave.json is missing or could not be copied from assets.")
+
 else:
     baseDir = os.path.dirname(__file__)
     savePath = os.path.join(baseDir, 'CountSave.json')
@@ -42,12 +77,14 @@ else:
                 "CountSave.json is missing or could not be copied from assets.")
 
 pokemonDictionary = {}
+
 if os.path.exists(savePath):
     try:
         with open(savePath, 'r', encoding="utf-8") as getSave:
             pokemonDictionary = json.loads(getSave.read())
     except (json.JSONDecodeError, IOError):
         raise Exception("CountSave.json is corrupt.")
+
 else:
     raise Exception("CountSave.json is missing.")
 
@@ -60,15 +97,18 @@ def main(page: ft.Page):
     probabilityString = "1/4096"
     count = 0
     binomial = "0%"
+    time = 0
 
     activeHuntText = ft.Text(activeHunt, size=24)
     countText = ft.Text(str(count), size=150)
     binomialText = ft.Text(binomial, size=24)
     probabilityText = ft.Text(probabilityString, size=24)
     spriteContent = ft.Image(src="sprites/bulbasaur.webp", scale=1.2)
+    timeText = ft.Text(f"00:00:00")
 
     def update():
         nonlocal count
+        global DUPLICATE_SPRITE_DIC
 
         try:
             count = pokemonDictionary[activeHunt]
@@ -85,48 +125,12 @@ def main(page: ft.Page):
 
             spriteSubPath = f"sprites/{fileName}.webp"
 
-        if '10' in activeHunt:
-            handleSpritePath("zygarde 10")
-        elif '50' in activeHunt:
-            handleSpritePath("zygarde 50")
-        elif 'e Be' in activeHunt:
-            handleSpritePath("alcremie berry")
-        elif 'Stra' in activeHunt:
-            handleSpritePath("alcremie strawberry")
-        elif 'Clov' in activeHunt:
-            handleSpritePath("alcremie clover")
-        elif 'ie F' in activeHunt:
-            handleSpritePath("alcremie flower")
-        elif 'e L' in activeHunt:
-            handleSpritePath("alcremie love")
-        elif 'e Sta' in activeHunt:
-            handleSpritePath("alcremie star")
-        elif 'Ribb' in activeHunt:
-            handleSpritePath("alcremie ribbon")
-        elif 'kru' in activeHunt:
-            handleSpritePath("rockruff")
-        elif 'stea' in activeHunt:
-            handleSpritePath("sinistea")
-        elif 'eag' in activeHunt:
-            handleSpritePath("polteageist")
-        elif 'tchag' in activeHunt:
-            handleSpritePath("poltchageist")
-        elif 'stc' in activeHunt:
-            handleSpritePath("sinistcha")
-        elif 'Mini' in activeHunt:
-            handleSpritePath("minior")
+        if activeHunt in DUPLICATE_SPRITE_DIC:
+            handleSpritePath(DUPLICATE_SPRITE_DIC[activeHunt])
 
-        # here all have behind gender differences
-        elif 'hic' in activeHunt:
-            handleSpritePath("torchic")
-        elif 'uag' in activeHunt:
-            handleSpritePath("quagsire")
-        elif 'Bid' in activeHunt:
-            handleSpritePath("bidoof")
-        elif 'Bui' in activeHunt:
-            handleSpritePath("buizel")
-        elif 'tzel' in activeHunt:
-            handleSpritePath("floatzel")
+        elif 'Alcremie' in activeHunt:
+            alcremieType = activeHunt.split()[1]
+            handleSpritePath("alcremie " + alcremieType.lower())
 
         else:
             spriteSubPath = f"sprites/{activeHunt.lower()}.webp"
@@ -202,6 +206,9 @@ def main(page: ft.Page):
             countText.update()
 
         updateBinomial()
+
+    def playPause(e):
+        pass
 
     def keyAdd(e: ft.KeyboardEvent):
         if e.key == softResetKey:
@@ -401,7 +408,7 @@ def main(page: ft.Page):
                         ft.TabBar(
                             tabs=[
                                 ft.Tab(label="Hunt"),
-                                ft.Tab(label="Set")
+                                ft.Tab(label="Set"),
                             ]
                         ),
                         ft.TabBarView(
@@ -469,7 +476,28 @@ def main(page: ft.Page):
                                                 [
                                                     ft.Container(
                                                         content=ft.Text(
-                                                            "Probability",
+                                                            "Time:",
+                                                            size=24
+                                                        ),
+                                                        expand=1,
+                                                        alignment=BOTTOM_LEFT
+                                                    ),
+                                                    ft.Container(
+                                                        content=ft.Text(
+                                                            "00:00:00",
+                                                            size=24
+                                                        ),
+                                                        expand=1,
+                                                        alignment=BOTTOM_RIGHT
+                                                    )
+                                                ]
+                                            ),
+
+                                            ft.Row(
+                                                [
+                                                    ft.Container(
+                                                        content=ft.Text(
+                                                            "Probability:",
                                                             size=24
                                                         ),
                                                         expand=1,
@@ -482,7 +510,7 @@ def main(page: ft.Page):
                                                 [
                                                     ft.Container(
                                                         content=ft.Text(
-                                                            "Binomial Distribution",
+                                                            "P(x >= 1):",
                                                             size=24
                                                         ),
                                                         expand=1,
