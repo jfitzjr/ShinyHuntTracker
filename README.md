@@ -1,6 +1,6 @@
-# ShinyPokeTracker
+# ShinyPokéTracker
 
-Inspired by https://shinytrack.night.coffee/, ShinyPokeTracker is a way to track your Pokemon shiny hunt history and easily keep count of which Pokemon you're currently hunting. Built with the Python package Flet, you can run this counter universally across all devices.
+Inspired by https://shinytrack.night.coffee/, ShinyPokéTracker is a way to track your Pokemon shiny hunt history and easily keep count of which Pokemon you're currently hunting. Built with the Python package Flet, you can run this counter universally across all devices.
 
 ## Usage
 
